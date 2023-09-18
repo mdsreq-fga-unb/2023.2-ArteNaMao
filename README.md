@@ -37,7 +37,7 @@ Ferramentas necessárias para o aplicativo:
 
 <br/>
 <p align="center">
-     <a href="https://github.com/luanasoares0901"> [marina](https://github.com/guinuto/2023.2-ArteNaMao/assets/78980848/b41b80a3-72c7-406f-8075-d802fa3a9bbd)</a>
+     <a href="https://github.com/luanasoares0901"> <img src="https://user-images.githubusercontent.com/78980848/268763777-24328d0a-6565-4bce-81c5-3bd7d2abc935.jpg"</a>
 </p>
 
 <br/>
