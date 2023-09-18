@@ -40,7 +40,6 @@ Ferramentas necessárias para o aplicativo:
      <a href="https://github.com/The-Boss-Nina"> <img src="https://user-images.githubusercontent.com/78980848/268765215-184fd9b7-1d4e-46b8-b891-3460da024389.png"</a>
      <a href="https://github.com/guinuto"> <img src="https://user-images.githubusercontent.com/78980848/268767567-f7c5bdd2-2680-4a8c-91c8-265cd29c29c0.jpg"</a>
     <a href="https://github.com/AnaKarolinyCavalcanti"> <img src="https://user-images.githubusercontent.com/78980848/268768459-b6444a7d-7030-4181-9f3a-c21e30ebf8aa.jpg"</a>
-    <a href="https://github.com/AnaKarolinyCavalcanti"> <img src="https://user-images.githubusercontent.com/78980848/268768459-b6444a7d-7030-4181-9f3a-c21e30ebf8aa.jpg"</a>
     <a href="https://github.com/brunotarquinio"> <img src="https://user-images.githubusercontent.com/78980848/268769921-c2550a6b-f406-4c04-b92d-522f6bfc4cba.jpg"</a>
      <a href="https://github.com/YanWerlley"> <img src="https://user-images.githubusercontent.com/78980848/268772682-338e37ae-33f2-4ad7-bb52-3e8496de2a53.jpg"</a>
 </p>
