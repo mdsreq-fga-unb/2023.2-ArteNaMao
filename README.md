@@ -36,6 +36,9 @@ Ferramentas necessárias para o aplicativo:
 
 <br/>
 <p align="center">
+     <a href="https://github.com/luanasoares0901"><img src="https://user-images.githubusercontent.com/89596623/232325390-1e27cef3-f27c-49dd-9b05-f61952f2c506.png"/></a>
+</p>
+
 <br/>
 
 <p style="text-indent: 50px;text-align: justify;">Estudantes da disciplina Requisitos de Software, Engenharia de Software, UnB. Conheça um pouco de nosso time...</p>
@@ -52,7 +55,7 @@ Ferramentas necessárias para o aplicativo:
 <tr>
 <th>Nome</th>
 <th>Matrícula</th>
-<th>GitHub</th>
+<th>Email</th>
 </tr>
 </thead>
 <tbody>
