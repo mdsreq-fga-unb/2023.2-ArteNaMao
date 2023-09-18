@@ -36,7 +36,7 @@ Ferramentas necessárias para o aplicativo:
 
 <br/>
 <p align="center">
-<a href="https://github.com/luanasoares0901"><img src="![marina](https://github.com/guinuto/2023.2-ArteNaMao/assets/78980848/954abe22-f7b7-4080-b240-37c5745d171c)
+<a href="https://github.com/luanasoares0901"><img src="https://github.com/guinuto/2023.2-ArteNaMao/assets/78980848/954abe22-f7b7-4080-b240-37c5745d171c
 "/></a> <a href="https://github.com/guinuto"><img src="https://user-images.githubusercontent.com/89596623/232325368-feb63fbe-fe9f-4e8a-aa7f-1666a4a7e407.png"/></a> <a href="https://github.com/luanduartee"><img src="https://user-images.githubusercontent.com/89596623/232325387-e9d71652-536c-46ea-99ef-26182b0af2d0.png"/></a> <a href="https://github.com/davirany"><img src="https://user-images.githubusercontent.com/89596623/232325365-f51e4b38-d22e-4f74-ab3f-a39b55a71721.png"/></a> <a href="https://github.com/maykonjuso"><img src="https://user-images.githubusercontent.com/89596623/232325392-79161aa9-10dd-4be2-9623-e7cd645b6455.png"/></a>
 </p>
 <br/>
