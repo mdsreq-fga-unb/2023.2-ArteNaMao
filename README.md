@@ -42,6 +42,7 @@ Ferramentas necessárias para o aplicativo:
     <a href="https://github.com/AnaKarolinyCavalcanti"> <img src="https://user-images.githubusercontent.com/78980848/268768459-b6444a7d-7030-4181-9f3a-c21e30ebf8aa.jpg"</a>
     <a href="https://github.com/AnaKarolinyCavalcanti"> <img src="https://user-images.githubusercontent.com/78980848/268768459-b6444a7d-7030-4181-9f3a-c21e30ebf8aa.jpg"</a>
     <a href="https://github.com/brunotarquinio"> <img src="https://user-images.githubusercontent.com/78980848/268769921-c2550a6b-f406-4c04-b92d-522f6bfc4cba.jpg"</a>
+     <a href="https://github.com/YanWerlley"> <img src="https://user-images.githubusercontent.com/78980848/268772682-338e37ae-33f2-4ad7-bb52-3e8496de2a53.jpg"</a>
 </p>
 
 <br/>
@@ -83,6 +84,11 @@ Ferramentas necessárias para o aplicativo:
 <td><a href="https://github.com/brunotarquinio">Bruno Tarquinio Silva</a></td>
 <td>211031575</td>
 <td>211031575@aluno.unb.br</td>
+</tr>
+<tr>
+<td><a href="https://github.com/YanWerlley">Yan Werlley de Freitas Paulo</a></td>
+<td>211031575</td>
+<td>yanwerlley0101@gmail.com</td>
 </tr>
 </tbody>
 </table>
