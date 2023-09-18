@@ -38,7 +38,7 @@ Ferramentas necessárias para o aplicativo:
 <p align="center">
 <br/>
 
-<p style="text-indent: 50px;text-align: justify;">Estudantes da disciplina Métodos de Desenvolvimento de Software, Engenharia de Software, UnB. Saiba um pouco mais sobre nosso time...</p>
+<p style="text-indent: 50px;text-align: justify;">Estudantes da disciplina Requisitos de Software, Engenharia de Software, UnB. Conheça um pouco de nosso time...</p>
 
 <div style="-webkit-display: flex;
        display: flex;
