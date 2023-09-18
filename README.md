@@ -38,7 +38,10 @@ Ferramentas necessárias para o aplicativo:
 <br/>
 <p align="center">
      <a href="https://github.com/The-Boss-Nina"> <img src="https://user-images.githubusercontent.com/78980848/268765215-184fd9b7-1d4e-46b8-b891-3460da024389.png"</a>
-     <a href="https://github.com/luanasoares0901"> <img src="https://user-images.githubusercontent.com/78980848/268765215-184fd9b7-1d4e-46b8-b891-3460da024389.png"</a>
+     <a href="https://github.com/guinuto"> <img src="https://user-images.githubusercontent.com/78980848/268767567-f7c5bdd2-2680-4a8c-91c8-265cd29c29c0.jpg"</a>
+    <a href="https://github.com/AnaKarolinyCavalcanti"> <img src="https://user-images.githubusercontent.com/78980848/268768459-b6444a7d-7030-4181-9f3a-c21e30ebf8aa.jpg"</a>
+    <a href="https://github.com/AnaKarolinyCavalcanti"> <img src="https://user-images.githubusercontent.com/78980848/268768459-b6444a7d-7030-4181-9f3a-c21e30ebf8aa.jpg"</a>
+    <a href="https://github.com/brunotarquinio"> <img src="https://user-images.githubusercontent.com/78980848/268769921-c2550a6b-f406-4c04-b92d-522f6bfc4cba.jpg"</a>
 </p>
 
 <br/>
@@ -62,14 +65,24 @@ Ferramentas necessárias para o aplicativo:
 </thead>
 <tbody>
 <tr>
-<td><a href="https://github.com/guinuto">Marina Márcia Costa de Souza</a></td>
+<td><a href="https://github.com/The-Boss-Nina">Marina Márcia Costa de Souza</a></td>
 <td>200041606</td>
 <td>marinamcsouza@gmail.com</td>
 </tr>
 <tr>
 <td><a href="https://github.com/guinuto">Guilherme Evangelista Ferreira dos Santos</a></td>
 <td>200038028</td>
-<td>guinuto</td>
+<td>guiguievangelista18@gmail.com</td>
+</tr>
+<tr>
+<td><a href="https://github.com/AnaKarolinyCavalcanti">Ana Karoliny de Souza Cavalcanti</a></td>
+<td>211031575</td>
+<td>211031575@aluno.unb.br</td>
+</tr>
+<tr>
+<td><a href="https://github.com/brunotarquinio">Bruno Tarquinio Silva</a></td>
+<td>211031575</td>
+<td>211031575@aluno.unb.br</td>
 </tr>
 </tbody>
 </table>
