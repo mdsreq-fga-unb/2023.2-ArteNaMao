@@ -37,6 +37,7 @@ Ferramentas necessárias para o aplicativo:
 
 <br/>
 <p align="center">
+     <a href="https://github.com/The-Boss-Nina"> <img src="https://user-images.githubusercontent.com/78980848/268765215-184fd9b7-1d4e-46b8-b891-3460da024389.png"</a>
      <a href="https://github.com/luanasoares0901"> <img src="https://user-images.githubusercontent.com/78980848/268765215-184fd9b7-1d4e-46b8-b891-3460da024389.png"</a>
 </p>
 
