@@ -33,10 +33,11 @@ Ferramentas necessárias para o aplicativo:
 
 
 ## <h2><span style="color: #F3910A;"></span> Membros da Equipe </h2>
+![marina](https://github.com/guinuto/2023.2-ArteNaMao/assets/78980848/b41b80a3-72c7-406f-8075-d802fa3a9bbd)
 
 <br/>
 <p align="center">
-     <a href="https://github.com/luanasoares0901"><img src="https://user-images.githubusercontent.com/89596623/232325390-1e27cef3-f27c-49dd-9b05-f61952f2c506.png"/></a>
+     <a href="https://github.com/luanasoares0901"><img src=""/></a>
 </p>
 
 <br/>
