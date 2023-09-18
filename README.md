@@ -37,7 +37,7 @@ Ferramentas necessárias para o aplicativo:
 
 <br/>
 <p align="center">
-     <a href="https://github.com/luanasoares0901"> <img src="https://user-images.githubusercontent.com/78980848/268763777-24328d0a-6565-4bce-81c5-3bd7d2abc935.jpg"</a>
+     <a href="https://github.com/luanasoares0901"> <img src="https://user-images.githubusercontent.com/78980848/268765215-184fd9b7-1d4e-46b8-b891-3460da024389.png"</a>
 </p>
 
 <br/>
