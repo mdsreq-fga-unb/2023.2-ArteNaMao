@@ -4,6 +4,12 @@
 | :--------: | :----: | :---------------------------------: | :---------: |
 | 19/09/2023 |  0.1   | Criação e estruturação do documento | Guilherme Santos, Marina Márcia, Ana Karoliny, Yan e Bruno |
 
+## Problema
+
+<p style="text-indent: 50px;text-align: justify;">
+    A dificuldade no gerenciamento de estoque e vendas de produtos de artesanato é um desafio comum para empreendedores nesse setor, devido à falta de soluções de software especializadas. Isso resulta em problemas como controle de estoque ineficiente, gestão de pedidos manual, precificação complexa e falta de visibilidade de desempenho. Uma solução de software dedicada ao artesanato pode simplificar essas tarefas e permitir que os empreendedores se concentrem em seu crescimento e criatividade.
+</p>
+
 
 ## Declaração Geral do Produto
 
