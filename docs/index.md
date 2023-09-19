@@ -1,22 +1,9 @@
 # Arte Na Mão - 2023/02
 
-
-##  Índice 
-
-* [Introdução](#Introdução)
-* [Documentação](#Documentação)
-* [Clonando o Repositório](#Clonando-o-repositório)
-* [Instalação](#Instalação)
-* [Equipe](#Equipe)
-
 ## Introdução
 
 O projeto **"Arte Na Mão"** está em desenvolvimento pela equipe **"GamaTech"** durante a disciplina **"Requisitos de Software"** no semestre 2023/2. O propósito do projeto consiste em criar uma aplicação web para ajudar no gerenciamento de estabelecimentos voltados para o artesanato. 
 
-
-### 🤝 Documentação
-
-[Clique aqui](https://mdsreq-fga-unb.github.io/2023.1-FamilyMusicSystem/) para acessar a documentação do projeto. 
 
 
 ## ⚙️ Instalação
@@ -24,12 +11,6 @@ O projeto **"Arte Na Mão"** está em desenvolvimento pela equipe **"GamaTech"**
 $ git clone https://github.com/mdsreq-fga-unb/2023.2-ArteNaMao.git
 $ cd 2023.2-ArteNaMao
 ```
-
-Ferramentas necessárias para o aplicativo:
-
-* [Git](https://git-scm.com/)
-* [Angular](https://angular.io/)
-* [Node](https://nodejs.org/)
 
 
 ## <h2><span style="color: #F3910A;"></span> Membros da Equipe </h2>

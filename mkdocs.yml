@@ -1,0 +1,42 @@
+site_name: ArteNaMão
+
+nav:
+  - Home: index.md
+  - Visão do produto e projeto:
+      - Visão geral do produto: visao-produto-projeto/visao-produto.md
+      - Visão geral do projeto: visao-produto-projeto/visao-projeto.md
+      - Processo de desenvolvimento de software: visao-produto-projeto/processo-de-desenvolvimento-de-software.md
+  - Entregas:
+      - Unidade 1: entregas\unidade-1.md
+repo_url: https://github.com/mdsreq-fga-unb/2023.2-ArteNaMao
+repo_name: ArteNaMao
+theme:
+  name: material
+  language: pt
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+    - content.action.edit
+    - content.action.view
+    - navigation.top
+    - content.tabs.link
+    - content.code.annotation
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/weather-night
+        name: Modo noturno
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+extra_css:
+ 
+extra:
+  generator: false
