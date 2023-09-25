@@ -16,7 +16,7 @@ O projeto **"Arte Na Mão"** está em desenvolvimento pela equipe **"GamaTech"**
 
 ### 🤝 Documentação
 
-[Clique aqui](https://guinuto.github.io/2023.2-ArteNaMao/) para acessar a documentação do projeto. 
+[Clique aqui](https://mdsreq-fga-unb.github.io/2023.2-ArteNaMao/) para acessar a documentação do projeto. 
 
 
 ## ⚙️ Instalação
