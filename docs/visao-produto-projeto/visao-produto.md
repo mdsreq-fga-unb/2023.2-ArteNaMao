@@ -3,6 +3,7 @@
 |    Data    | Versão |              Descrição              |  Autor(es)  |
 | :--------: | :----: | :---------------------------------: | :---------: |
 | 19/09/2023 |  0.1   | Criação e estruturação do documento | Guilherme Santos, Marina Márcia, Ana Karoliny, Yan e Bruno |
+| 27/09/2023 |  0.2   | Criação e estruturação do documento | Guilherme Santos, Marina Márcia, Ana Karoliny, Yan e Bruno |
 
 ## Problema
 
@@ -31,17 +32,26 @@ No contexto atual, empreendedores e artesãos do setor de artesanato enfrentam d
 
 ## Tecnologias Utilizadas
 
-- Angular - Desenvolvimento do Frontend
-- Bootstrap - Desenvolvimento do Frontend
-- Javascript - Desenvolvimento do Frontend
-- Node - Desenvolvimento do Backend
-- Strapi - Desenvolvimento do Backend
-- PostgreSQL - Banco de dados
-- Git Actions - Testes
-- Jest - Testes
+**Angular** - Essa poderosa estrutura de código aberto é utilizada para o desenvolvimento do frontend da nossa aplicação. Ela oferece um conjunto de ferramentas para a criação de interfaces de usuário dinâmicas e responsivas.
 
-## Ferramentas
+**Bootstrap** - É uma biblioteca de código aberto que simplifica o desenvolvimento do frontend, fornecendo componentes e estilos pré-projetados que podem ser facilmente personalizados para criar uma aparência consistente e atraente.
 
-- Discord - Reuniões de Daily, Review e Retrospective
-- GitHub - Armazenamento de versões
-- Visual Studio Code - Editor de código
+**Javascript** - A linguagem de programação Javascript é essencial para o desenvolvimento do frontend, permitindo a criação de interatividade e funcionalidades dinâmicas nas páginas da web.
+
+**Node** - É usado para desenvolver o backend da nossa aplicação. Ele fornece um ambiente de tempo de execução para JavaScript do lado do servidor, permitindo a construção de aplicativos escaláveis e de alto desempenho.
+Strapi - É uma estrutura de código aberto para a criação de APIs RESTful. É usada no desenvolvimento do backend para facilitar a criação e gestão de conteúdo e dados da aplicação.
+
+**PostgreSQL** - Este sistema de gerenciamento de banco de dados relacional é escolhido para armazenar e gerenciar os dados da aplicação. Oferece confiabilidade, desempenho e recursos avançados de consulta.
+Git Actions - É uma ferramenta que automatiza tarefas de teste e integração contínua, garantindo que nosso código seja testado e implantado de forma confiável.
+
+**Jest** - É uma estrutura de teste de código aberto que é usada para testar nosso código. Ele facilita a criação e execução de testes de unidade e testes de integração para garantir que nossa aplicação funcione corretamente.
+
+
+## Ferramentas a serem utilizadas.
+
+**Discord** - Utilizaremos o Discord para realizar reuniões diárias, revisões de código e retrospectivas. É uma plataforma de comunicação que ajuda a manter a equipe conectada e a facilitar a colaboração.
+
+**GitHub** - É uma plataforma de hospedagem de código que usamos para armazenar e versionar nosso código-fonte. Ele fornece controle de versão, colaboração e gerenciamento de projetos.
+
+**Visual Studio Code** - É um editor de código altamente personalizável que usamos para desenvolver nossa aplicação. Ele oferece suporte a várias linguagens de programação e extensões que facilitam o desenvolvimento.
+

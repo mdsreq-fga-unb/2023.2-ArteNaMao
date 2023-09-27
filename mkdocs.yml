@@ -13,6 +13,8 @@ repo_name: ArteNaMao
 theme:
   name: material
   language: pt
+  favicon: assets/pincel.png
+  logo: assets/pincel.png
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -32,7 +34,7 @@ theme:
         icon: material/weather-night
         name: Modo noturno
     - scheme: slate
-      primary: black
+      primary: blue
       toggle:
         icon: material/weather-sunny
         name: Modo claro
