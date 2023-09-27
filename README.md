@@ -81,8 +81,8 @@ Ferramentas necessárias para o aplicativo:
 </tr>
 <tr>
 <td><a href="https://github.com/brunotarquinio">Bruno Tarquinio Silva</a></td>
-<td>211031575</td>
-<td>211031575@aluno.unb.br</td>
+<td>211061494</td>
+<td>bruno.ts04@gmail.com</td>
 </tr>
 <tr>
 <td><a href="https://github.com/YanWerlley">Yan Werlley de Freitas Paulo</a></td>
