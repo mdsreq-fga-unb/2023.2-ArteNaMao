@@ -2,8 +2,9 @@
 
 |    Data    | Versão |              Descrição              |  Autor(es)  |
 | :--------: | :----: | :---------------------------------: | :---------: |
-| 19/09/2023 |  0.1   | Criação e estruturação do documento | Guilherme Santos, Marina Márcia, Ana Karoliny, Yan e Bruno |
-| 27/09/2023 |  0.2   | Criação e estruturação do documento | Guilherme Santos, Marina Márcia, Ana Karoliny, Yan e Bruno |
+| 19/09/2023 |  1.0   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
+| 27/09/2023 |  1.1   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
+
 
 
 ## Organização do Projeto

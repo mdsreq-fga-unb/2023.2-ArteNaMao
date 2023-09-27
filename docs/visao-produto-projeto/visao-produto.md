@@ -2,8 +2,8 @@
 
 |    Data    | Versão |              Descrição              |  Autor(es)  |
 | :--------: | :----: | :---------------------------------: | :---------: |
-| 19/09/2023 |  0.1   | Criação e estruturação do documento | Guilherme Santos, Marina Márcia, Ana Karoliny, Yan e Bruno |
-| 27/09/2023 |  0.2   | Criação e estruturação do documento | Guilherme Santos, Marina Márcia, Ana Karoliny, Yan e Bruno |
+| 19/09/2023 |  1.0   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
+| 27/09/2023 |  1.1   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
 
 ## Problema
 
@@ -14,7 +14,8 @@
 
 ## Declaração Geral do Produto
 
-<p style="text-indent: 50px;text-align: justify;">Arte na Mão é um software robusto e especializado projetado para atender às necessidades exclusivas de artesãos e empreendedores que desejam gerenciar com eficiência seus negócios de artesanato. Com foco no gerenciamento de estoque de materiais e vendas, o software oferece uma solução abrangente para artesãos que desejam otimizar suas operações, controlar seus recursos e impulsionar o sucesso de seus empreendimentos.
+<p style="text-indent: 50px;text-align: justify;">
+Arte na Mão é um software robusto e especializado projetado para atender às necessidades exclusivas de artesãos e empreendedores que desejam gerenciar com eficiência seus negócios de artesanato. Com foco no gerenciamento de estoque de materiais e vendas, o software oferece uma solução abrangente para artesãos que desejam otimizar suas operações, controlar seus recursos e impulsionar o sucesso de seus empreendimentos.
 </p>
 <p style="text-indent: 50px;text-align: justify;">
 O Arte na Mão é a escolha ideal para artesãos e pequenos empresários que desejam alcançar um nível superior de organização e eficiência em seus empreendimentos de artesanato, sem a necessidade de funcionalidades de compra e venda. Confiável e fácil de usar, ele é a chave para o sucesso de negócios de artesanato prósperos e bem gerenciados.</p>
@@ -22,13 +23,15 @@ O Arte na Mão é a escolha ideal para artesãos e pequenos empresários que des
 | Para                  | Artesãos                                                                                                         |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Quem                  | Deseja uma plataforma com funcionalidades que auxiliem no gerenciamento de um ateliê de artesanato.       |
-| O Family Music System |Deseja uma plataforma com funcionalidades que auxiliem no gerenciamento de um ateliê de artesanato.                                                                             |
-| Que                   | Organiza e facilita o dia a dia do cenário administrativo da escola                                                         |
+| O ArteNaMão |É uma plataforma com funcionalidades que auxiliam no gerenciamento de um ateliê de artesanato.                                                                             |
+| Que                   | Organiza e facilita o cenário administrativo do negócio.                                  |
 | Ao contrário de      | Anotações e Instagram                                                                                                                      |
 | Nosso produto         | Apresenta várias funcionalidades personalizadas para os clientes com a finalidade de ajudá-los. |
 
 ## Objetivos do Produto
+<p style="text-indent: 50px;text-align: justify;">
 No contexto atual, empreendedores e artesãos do setor de artesanato enfrentam desafios significativos na gestão eficiente de seus negócios, incluindo estoque, vendas e organização administrativa complexa. O software "ArteNaMão" foi desenvolvido especificamente para atender a essas necessidades exclusivas. Seus principais objetivos de negócios são oferecer uma solução abrangente e aumentar a eficiência operacional, promovendo o sucesso dos negócios de artesanato. Do ponto de vista do cliente, o objetivo é simplificar a gestão de negócios, substituir métodos manuais por uma solução mais eficaz e personalizar o software para atender às necessidades individuais. Em resumo, o "Arte na Mão" visa simplificar e otimizar as operações de artesãos e pequenos empresários, impulsionando o sucesso tanto para os negócios quanto para os clientes.
+</p>
 
 ## Tecnologias Utilizadas
 
@@ -54,4 +57,3 @@ Git Actions - É uma ferramenta que automatiza tarefas de teste e integração c
 **GitHub** - É uma plataforma de hospedagem de código que usamos para armazenar e versionar nosso código-fonte. Ele fornece controle de versão, colaboração e gerenciamento de projetos.
 
 **Visual Studio Code** - É um editor de código altamente personalizável que usamos para desenvolver nossa aplicação. Ele oferece suporte a várias linguagens de programação e extensões que facilitam o desenvolvimento.
-

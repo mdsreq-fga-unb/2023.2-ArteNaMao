@@ -2,7 +2,7 @@
 
 |    Data    | Versão |              Descrição              |  Autor(es)  |
 | :--------: | :----: | :---------------------------------: | :---------: |
-| 27/09/2023 |  0.1   | Criação e estruturação do documento | Guilherme Santos|
+| 27/09/2023 |  1.0   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
 
 ## Metodologia
 
@@ -63,4 +63,3 @@ Organização e Atualização de Requisitos:
 <li>Organização e Atualização de Requisitos:</li>
 
 Onde usar no Scrum: Esta atividade é realizada ao longo do projeto. Os requisitos são organizados e mantidos atualizados no Product Backlog. À medida que o projeto avança, novos requisitos podem surgir ou mudanças nos requisitos existentes podem ser necessárias. A equipe é responsável por manter o backlog atualizado e organizado.
-
