@@ -11,6 +11,9 @@
     A dificuldade no gerenciamento de estoque e vendas de produtos de artesanato é um desafio comum para empreendedores nesse setor, devido à falta de soluções de software especializadas. Isso resulta em problemas como controle de estoque ineficiente, gestão de pedidos manual, precificação complexa e falta de visibilidade de desempenho. Uma solução de software dedicada ao artesanato pode simplificar essas tarefas e permitir que os empreendedores se concentrem em seu crescimento e criatividade.
 </p>
 
+## Espinha de peixe
+![1](https://user-images.githubusercontent.com/78980848/271138743-93e0d247-67b3-4555-b882-b4e5212f37f7.jpeg)
+
 
 ## Declaração Geral do Produto
 
