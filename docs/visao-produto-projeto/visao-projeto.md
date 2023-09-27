@@ -5,16 +5,14 @@
 | 19/09/2023 |  1.0   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
 | 27/09/2023 |  1.1   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
 
-
-
 ## Organização do Projeto
 
 |    Papel    | Atribuições |              Responsável              |  Participantes  |
 | :--------: | :----: | :---------------------------------: | :---------: |
 | Scrum Master | Garantir que o time scrum se oriente pelos valores e práticas do Scrum  | Marina | Marina |
-| Product Owner| Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas| Marina | Marina |
-| Desenvolvedor | Codificar o produto, testes unitários e realizar refatoração | Marina  | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina e Yan Werlley |
-| Analista de qualidade | Garantir a qualidade do produto, garantir o cumprimento do conceito de pronto, realizar inspeções de código| Guilherme | Guilherme |
+| Product Owner| Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas| Bruno Tarquinio | Bruno Tarquinio |
+| Desenvolvedor | Codificar o produto, testes unitários e realizar refatoração | Ana Karoliny | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina e Yan Werlley |
+| Analista de qualidade | Garantir a qualidade do produto, garantir o cumprimento do conceito de pronto, realizar inspeções de código| Guilherme Evangelista | Guilherme Evangelista e Yan Werlley |
 | Cliente | Fornecer as informações necessárias para construção do backlog e validar as entregas  | Ana Tarquinio Ateliê | Ana Tarquinio Ateliê |
 
 ## Planejamanto das fases ou iterações do projeto
@@ -80,4 +78,3 @@ Nessas situações os seguintes passos devem ser seguidos:
 <li>Revisão dos requisitos;</li>
 <li>Replanejamento de ciclos;</li>
 <li>Replanejamento da alocação de tarefas.</li>
-
