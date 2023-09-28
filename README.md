@@ -65,7 +65,7 @@ Ferramentas necessárias para o aplicativo:
 </thead>
 <tbody>
 <tr>
-<td><a href="https://github.com/The-Boss-Nina">Marina Márcia Costa de Sousa</a></td>
+<td><a href="https://github.com/The-Boss-Nina">Marina Márcia Costa de Souza</a></td>
 <td>200041606</td>
 <td>marinamcsouza@gmail.com</td>
 </tr>
