@@ -6,6 +6,7 @@ nav:
       - Visão geral do produto: visao-produto-projeto/visao-produto.md
       - Visão geral do projeto: visao-produto-projeto/visao-projeto.md
       - Processo de desenvolvimento de software: visao-produto-projeto/processo-de-desenvolvimento-de-software.md
+  - Backlog do Produto: backlog-do-produto/backlog-do-produto.md
   - Entregas:
       - Unidade 1: entregas\unidade-1.md
 repo_url: https://github.com/mdsreq-fga-unb/2023.2-ArteNaMao
