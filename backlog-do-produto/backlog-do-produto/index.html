@@ -508,6 +508,19 @@
     Backlog priorizado
   </a>
   
+    <nav class="md-nav" aria-label="Backlog priorizado">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-priorizacao" class="md-nav__link">
+    Critérios de priorização
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -635,8 +648,7 @@
 
 <h2 id="persona">Persona</h2>
 <ul>
-<li><strong>Administrador:</strong> Pessoa com funções que vão desde o gerenciamento da escola de música até o envio de mensagens de aviso para os alunos. </br></li>
-<li><strong>Usuário:</strong> Refere-se ao administrador. </br></li>
+<li><strong>Administrador:</strong> Unica pessoa com acesso ao sistema de gerenciamneto do ateliê</br></li>
 </ul>
 <h2 id="backlog-priorizado">Backlog priorizado</h2>
 <table>
@@ -736,7 +748,7 @@
 <td><b>[EP01]</b> Gerenciamento de ativos do ateliê</td>
 <td><b>[CAP03]</b> - Gerenciamento de vendas</td>
 <td><b>[FEA04]</b> CRUD de vendas</td>
-<td><b>[US09]</b> Eu, como administrador, quero ser capaz de realizar a edição de cada venda realizada.</td>
+<td><b>[US09]</b> Eu, como administrador, quero ser capaz de realizar a edição de cada venda realizada para assim atualizar suas informações.</td>
 <td style="text-align: center;">4.8</td>
 <td style="text-align: center;">4.6</td>
 <td style="text-align: center;">4.6</td>
@@ -747,7 +759,7 @@
 <td><b>[EP01]</b> Gerenciamento de ativos do ateliê</td>
 <td><b>[CAP03]</b> - Gerenciamento de vendas</td>
 <td><b>[FEA04]</b> CRUD de vendas</td>
-<td><b>[US10]</b> Eu, como administrador, quero ser capaz de realizar a exclusão de cada venda realizada.</td>
+<td><b>[US10]</b> Eu, como administrador, quero ser capaz de realizar a exclusão de cada venda realizada para assim ser excluida no banco de dados.</td>
 <td style="text-align: center;">4.8</td>
 <td style="text-align: center;">4.6</td>
 <td style="text-align: center;">4.6</td>
@@ -780,7 +792,7 @@
 <td><b>[EP03]</b> Gerenciamento financeiro</td>
 <td><b>[CAP06]</b> - Registro de despesas</td>
 <td><b>[FEA08]</b> CRUD de despesas</td>
-<td><b>[US19]</b> Eu, como administrador, quero ser capaz de realizar a exclusão de cada despesa realizada.</td>
+<td><b>[US19]</b> Eu, como administrador, quero ser capaz de realizar a exclusão de cada despesa realizada para assim exclui-la no banco de dados.</td>
 <td style="text-align: center;">4.4</td>
 <td style="text-align: center;">4.7</td>
 <td style="text-align: center;">4.3</td>
@@ -791,7 +803,7 @@
 <td><b>[EP03]</b> Gerenciamneto financeiro</td>
 <td><b>[CAP06]</b> - Registro de despesas</td>
 <td><b>[FEA08]</b> CRUD de despesas</td>
-<td><b>[US20]</b> Eu, como administrador, quero ser capaz de realizar a edição de cada despesa realizada.</td>
+<td><b>[US20]</b> Eu, como administrador, quero ser capaz de realizar a edição de cada despesa realizada para assim mudar suas informações.</td>
 <td style="text-align: center;">4.4</td>
 <td style="text-align: center;">4.7</td>
 <td style="text-align: center;">4.3</td>
@@ -857,7 +869,7 @@
 <td><b>[EP01]</b> Gerenciamneto de ativos do ateliê</td>
 <td><b>[CAP01]</b> - Gerenciamento de produtos</td>
 <td><b>[FEA02]</b> Alerta de falta de produtos no estoque</td>
-<td><b>[US04]</b> Eu, como administrador, quero ser alertado quando um material estiver em falta no estoque</td>
+<td><b>[US04]</b> Eu, como administrador, quero ser alertado quando um material estiver em falta no estoque para assim me atentar em fazer mais desse produto</td>
 <td style="text-align: center;">3.9</td>
 <td style="text-align: center;">4.0</td>
 <td style="text-align: center;">3.7</td>
@@ -873,6 +885,30 @@
 <td style="text-align: center;">3.9</td>
 <td style="text-align: center;">3.7</td>
 <td style="text-align: center;">3.8</td>
+</tr>
+</tbody>
+</table>
+<h3 id="criterios-de-priorizacao">Critérios de priorização</h3>
+<p>Nossos critérios vão de 1 a 5 e seu valor "total" é calculado pela média dos outros 3 critérios (valor de negócio , viabilidade e criticidade)</p>
+<table>
+<thead>
+<tr>
+<th>Critérios</th>
+<th>Definição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Valor de negócio</td>
+<td>Quanto esse requisito é importante para nossa cliente</td>
+</tr>
+<tr>
+<td>Viabilidade</td>
+<td>Quanto esse requisito não depende de outros + o conhecimento que nossa equipe tem para realiza-lo</td>
+</tr>
+<tr>
+<td>Criticidade</td>
+<td>Se esse requisito é urgente para nossa cliente</td>
 </tr>
 </tbody>
 </table>
@@ -913,12 +949,12 @@
 </thead>
 <tbody>
 <tr>
-<td><b>[US01]</b> Administrador cadastrar alunos </br> <b>[US02]</b> Administrador cadastrar professores</br> <b>[US03]</b> Administrador atualizar professores </br>  <b>[US05]</b> Administrador remover professores </br> <b>[US06]</b> Administrador remover alunos</br>  <b>[US07] </b>Administrador excluir cliente  </br> <b>[US08] </b>Administrador realizar cadastro de vendas  </br> <b>[US09] </b>Administrador editar vendas  </br> <b>[US10] </b>Administrador excluir venda  </br> <b>[US12] </b>Administrador visualizar histórico de transações  </br></td>
-<td>O administrador deve ser capaz de cadastrar, editar e remover produtos , vendas , clientes e despesas da plataforma.</td>
+<td><b>[US01]</b> Administrador cadastrar produtos </br> <b>[US02]</b> Administrador editar produtos</br> <b>[US03]</b> Administrador excluir produtos </br>  <b>[US05]</b> Administrador cadastrar cliente </br> <b>[US06]</b> Administrador editar cliente</br>  <b>[US07] </b>Administrador excluir cliente  </br> <b>[US08] </b>Administrador realizar cadastro de vendas  </br> <b>[US09] </b>Administrador editar vendas  </br> <b>[US10] </b>Administrador excluir venda  </br> <b>[US12] </b>Administrador visualizar histórico de transações  </br></td>
+<td>Por meio dos critérios de priorização do backlog foi resolvido que parte do MVP1 será composto pelas funções de cadastro , exclusão e edição de produtos , clientes e vendas.</td>
 </tr>
 <tr>
 <td><b>[US18]</b> Cadastrar despesas  </br> <b>[US019]</b> Excluir despesas  </br> <b>[US020]</b> Editar despesas  </br></td>
-<td>O administrdor deve ser capaz de cadastrar , excluir e editar suas despesas</td>
+<td>Por meio dos critérios de priorização do backlog foi resolvido que a outra parte do MVP1 será o cadastro , edição e e exclusão de despesas.</td>
 </tr>
 </tbody>
 </table>
