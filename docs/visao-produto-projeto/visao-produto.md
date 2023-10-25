@@ -30,9 +30,9 @@ Embora nosso software não inclua funcionalidades de compra e venda direta, ele 
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Quem                  | Deseja uma plataforma com funcionalidades que auxiliem no gerenciamento de um ateliê de artesanato.       |
 | O ArteNaMão |É uma plataforma web de gestão administrativa de atêlies.                                                                             |
-| Que                   | Organiza o estoque de forma que o administrador possa identificar rapidamente quais produtos estão disponíveis e quais estão em falta além de facilitar a gestão financeira do atêlie com dados e grficos.                                  |
+| Que                   | Organiza o estoque de forma que o administrador possa identificar rapidamente quais produtos estão disponíveis e quais estão em falta além de facilitar a gestão financeira do atêlie com dados e gráficos.                                  |
 | Ao contrário de      | Anotações e Instagram                                                                                                                      |
-| Nosso produto         | Permite ao administrador gerenciar de maneira organizada seus etoques e suas vendas e permite aos usuários ver produtos disponíveis para venda |
+| Nosso produto         | Permite ao administrador gerenciar de maneira organizada seus etoques , suas vendas e suas finanças.  |
 
 ## Objetivos do Produto
 <p style="text-indent: 50px;text-align: justify;">
