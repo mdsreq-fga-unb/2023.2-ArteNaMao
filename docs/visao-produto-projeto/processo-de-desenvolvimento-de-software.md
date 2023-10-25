@@ -4,9 +4,37 @@
 | :--------: | :----: | :---------------------------------: | :---------: |
 | 27/09/2023 |  1.0   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
 
+## Como escolhemos nossa metodologia de desenvolvimento de software  
+ Escolhemos a abordagem de Sommerville para decidir qual método de desenvolvimento de software utilizaremos.Nela, a escolha da abordagem de desenvolvimento de software pode ser facilitada através do esforço de responder uma série de perguntas sobre o sistema, o time de desenvolvimento e os stakeholders envolvidos, abarcando assim questões técnicas, humanas e organizacionais.
+
+### Questões Técnicas
+ - **Qual é o tamanho do sistema que está sendo desenvolvido?** É um software de pequeno porte.
+ - **Que tipo de sistema está sendo desenvolvido?** Uma aplicação Web de pequena complexidade.
+ - **Qual é a vida útil prevista para o sistema?** A princípio, vida útil de média duração.
+ - **O sistema está sujeito a controle externo?** Sim, pelo cliente e pelo acompanhamento da disciplina.
+
+### Questões Humanas
+  - **Qual é o nível de competência dos projetistas e programadores do time de desenvolvimento?** O nível de competência da equipe está bem variado,com pessoas tendo experiência no desenvolvimento de software e outras nem tanto.
+- **Como está organizado o time de desenvolvimento?** O time contém 5 integrantes, e apesar de termos os papeis definidos, todos devem participar da maioria das atividades.
+ - **Quais são as tecnologias disponíveis para apoiar o desenvolvimento do sistema?** Muitas ferramentas irão nos auxiliar principalmente o discord , github e vscode.
+
+### Questões Organizacionais
+  - **É importante ter uma especificação e um projeto (design) bem detalhados antes de passar para a implementação — talvez por motivos contratuais?** Não, partes do sistema podem ser construídas durante todo o projeto.
+- **É realista uma estratégia de entrega incremental, na qual o software é entregue aos clientes ou outros stakeholders e um rápido feedback é obtido?** Sim, pois há extrema proximidade do cliente com o Product Owner e a equipe de desenvolvimento.
+- **Os representantes do cliente estarão disponíveis e dispostos a participar do time de desenvolvimento?** Não, o desenvolvimento só será feito pela equipe , com o cliente participando de reuniões de feedback e na elaboração de novos requisitos.
+- **Existem questões culturais que possam afetar o desenvolvimento do sistema?** Não, pois o time é novo e não tem apego a determinado método de desenvolvimento.
+
+
+   Levando em consideração todas as respostas do grupo às perguntas sugeridas por Sommerville (2018), chegou-se às seguintes conclusões:
+
+O software a ser desenvolvido é pequeno, de pequena complexidade e vida útil média, o que indica que um processo ágil pode ser suficiente, não sendo necessário um esforço tremendo de documentação para realizar comunicação entre a equipe e o cliente;
+O time de desenvolvimento será o principal responsável pelo desenvolvimento, é constituidos por pessoas experientes e abituadas com as ferramentas e tecnologias necessárias que facilitam muito a comunicação do time , deixando ainda mais propício à uma metodologia ágil.
+A implementação pode começar a ser realizada antes da completa especificação do produto, assim como podem ser feitas pequenas entregas incrementalmente, das quais podem ser recebidos feedbacks rapidamente do cliente e do professor.
+
+
 ## Metodologia
 
- Ao implementar o Scrum, promovemos uma comunicação mais eficaz entre os membros da equipe, por meio de reuniões regulares e transparentes, o que reduz a probabilidade de mal-entendidos e alinha todos os envolvidos em torno de objetivos comuns. Além disso, ao integrar o XP, fortalecemos a colaboração intensiva entre os membros da equipe, incentivando a programação em par e práticas de codificação compartilhada, o que resulta em um código mais limpo, testado e robusto. Essas metodologias combinadas proporcionam um ambiente ágil e flexível, permitindo que a equipe responda de maneira eficiente a mudanças nos requisitos do cliente, mantendo um foco constante na entrega de valor e na satisfação do cliente.
+ A metodologia Ágil escolhida foi o scrum/xp.Ao implementar o Scrum, promovemos uma comunicação mais eficaz entre os membros da equipe, por meio de reuniões regulares e transparentes, o que reduz a probabilidade de mal-entendidos e alinha todos os envolvidos em torno de objetivos comuns. Além disso, ao integrar o XP, fortalecemos a colaboração intensiva entre os membros da equipe, incentivando a programação em par e práticas de codificação compartilhada, o que resulta em um código mais limpo, testado e robusto. Essas metodologias combinadas proporcionam um ambiente ágil e flexível, permitindo que a equipe responda de maneira eficiente a mudanças nos requisitos do cliente, mantendo um foco constante na entrega de valor e na satisfação do cliente.
 
 | Evento               | Descrição                                                                                                                                                                | Ferramenta |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
@@ -33,10 +61,10 @@
 
 ## Atividades da Engenharia de Requisitos no Scrum/Xp
 
-|Atividade de engenharia de requisitos| Onde ocorre no scrum/xp|
-|-------------------------------------|------------------------|
-|Elicitação e Descoberta de requisitos(ED)| Durante todo o processo do scrum/xp|
-|Análise e Consenso de requisitos(AC) | Durante todo o processo do scrum/xp|
+|Atividade de engenharia de requisitos| Onde ocorre no scrum/xp|Descrição da atividade|
+|-------------------------------------|------------------------|----------------------|
+|Elicitação e Descoberta de requisitos(ED)| Durante todo o processo do scrum/xp|baseia-se nas atividades de elicitação - extrair, obter ou provocar uma resposta, reação ou informação de alguém ou de algo - e descoberta - encontrar algo que antes não era conhecido ou não estava disponível. As fontes da elicitação podem ser diversas, desde stakeholders, até IAs, pesquisas ou sistemas existentes. Deve-se atentar aos requisitos funcionais e não funcionais, assim como descobrir quem são os interessados, seus problemas, necessidades, desejos e expectativas, além de outros fatores que podem representar possibilidades ou restrições ao produto de software.|
+|Análise e Consenso de requisitos(AC) | Durante todo o processo do scrum/xp|envolve a análise - analisar os requisitos em sua forma “bruta” - e o consenso - conciliar as fontes de informação em direção a um entendimento comum sobre o conjunto de requisitos.|
 |Declaração de Requisitos (DR)| Ocorre durante o processo de Organização e atualização dos requisitos(ao longo de todo processo do scrum/xp)|
 |Representação de Requisitos (RR)| Ocorre ao longo de todo o processo do scrum/xp|
 |Verificação e Validação de Requisitos (VV)| Ocorre ao longo de todo o processo do scrum/xp|

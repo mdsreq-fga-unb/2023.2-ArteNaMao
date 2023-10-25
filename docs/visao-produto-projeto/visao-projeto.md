@@ -36,7 +36,7 @@
 | Sprint Review        | Equipe do Projeto                       | Quinzenal     | Revisão dos resultados da sprint atual com a cliente                                                             |
 | Sprint Retrospective | Equipe do Projeto                       | Quinzenal     | Feedback da equipe sobre o projeto e oque pode ser melhorado                       |
 | Daily Scrum          | Equipe do Projeto                       | Semanal        | Revisão de progresso da sprint                                                                     |
-| Situação do Projeto  | Equipe do Projeto,<br> George Marsicano | Semanal       | Comunicação de situação atual do projeto para o professor e atualização da documentação do projeto |
+| Situação do Projeto  | Equipe do Projeto,<br> George Marsicano<br>Monitores | Semanal       | Comunicação de situação atual do projeto com o professor e monitores|
 
 ## Gerenciamento de Riscos
 
