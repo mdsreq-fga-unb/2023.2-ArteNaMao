@@ -13,26 +13,28 @@
 | Product Owner| Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas| Bruno Tarquinio | Bruno Tarquinio |
 | Desenvolvedor | Codificar o produto, testes unitários e realizar refatoração | Ana Karoliny | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina e Yan Werlley |
 | Analista de qualidade | Garantir a qualidade do produto, garantir o cumprimento do conceito de pronto, realizar inspeções de código| Guilherme Evangelista | Guilherme Evangelista e Yan Werlley |
+|Analista de requisitos | Conferir se o desenvolvimento está alinhado com as atividades da engenharia de requisitos|Guilherme Evangelista | Guilherme Evangelista|
 | Cliente | Fornecer as informações necessárias para construção do backlog e validar as entregas  | Ana Tarquinio Ateliê | Ana Tarquinio Ateliê |
 
 ## Planejamanto das fases ou iterações do projeto
 
-|    Sprint    | Produto(entrega) | Data Início | Data Fim |
+|    Sprint    | entregas | Data Início | Data Fim |
 | :--------: | :----: | :---------------------------------: | :---------: |
 |    0    | Definição do Problema;<br>Definição do Produto;<br>Início Git Pages | 05/09/2023 | 18/09/2023 |
 |    0    | Produção da Visão de Produto e Projeto;<br>Conclusão da ideia do produto;<br>Produção do processo de desenvolvimento de software | 19/09/2023 | 01/10/2023 |
-|    1    | Criação inicial do backlog do produto; | 02/10/2023 | 15/10/2023 |
-|    2    | US01 , US02 , US03 | 16/10/2023 | 29/10/2023 |
-|    3    | US04 , US05 , US06 | 13/11/2023 | 26/11/2023 |
-|    4    | US07 , US08 , US09 | 09/12/2023 | 23/12/2023 |
+|    0    | Criação inicial do backlog do produto; | 02/10/2023 | 15/10/2023 |
+|    0    | backlog pririzado e propostas de mvp | 16/10/2023 | 29/10/2023 |
+|    1    | US01 , US02 , US03 , US05 </br> US06 , US07 , US08 ,  | 30/10/2023 | 13/11/2023 |
+|    2    | US09 , US10 , US12, </br> US18 , US19 , US20 , US13 , US14 | 14/11/2023 | 28/11/2023 |
+|    3    | US15 , US16 , US17 , US04 ,US11  | 29/11/2023 | 12/12/2023 |
 
 ## Matriz de Comunicação
 
 | Descrição            | Área/Envolvidos                         | Periodicidade | Produtos Gerados                                                                                   |
 | -------------------- | --------------------------------------- | ------------- | -------------------------------------------------------------------------------------------------- |
 | Sprint Planning      | Equipe do Projeto                       | Quinzenal     | Backlog da sprint                                                                                  |
-| Sprint Review        | Equipe do Projeto                       | Quinzenal     | Revisão dos resultados da sprint atual                                                             |
-| Sprint Retrospective | Equipe do Projeto                       | Quinzenal     | Documentação de melhorias e lições aprendidas, prezando sempre pelo feedback                       |
+| Sprint Review        | Equipe do Projeto                       | Quinzenal     | Revisão dos resultados da sprint atual com a cliente                                                             |
+| Sprint Retrospective | Equipe do Projeto                       | Quinzenal     | Feedback da equipe sobre o projeto e oque pode ser melhorado                       |
 | Daily Scrum          | Equipe do Projeto                       | Semanal        | Revisão de progresso da sprint                                                                     |
 | Situação do Projeto  | Equipe do Projeto,<br> George Marsicano | Semanal       | Comunicação de situação atual do projeto para o professor e atualização da documentação do projeto |
 

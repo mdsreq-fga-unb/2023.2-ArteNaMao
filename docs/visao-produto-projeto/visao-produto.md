@@ -18,18 +18,21 @@
 ## Declaração Geral do Produto
 
 <p style="text-indent: 50px;text-align: justify;">
-Arte na Mão é um software robusto e especializado projetado para atender às necessidades exclusivas de artesãos e empreendedores que desejam gerenciar com eficiência seus negócios de artesanato. Com foco no gerenciamento de estoque de materiais e vendas, o software oferece uma solução abrangente para artesãos que desejam otimizar suas operações, controlar seus recursos e impulsionar o sucesso de seus empreendimentos.
+Arte na Mão é um software especializado projetado para atender às necessidades exclusivas de artesãos e empreendedores que desejam gerenciar eficientemente seus negócios de artesanato. Com foco no gerenciamento de estoque de materiais e controle de recursos, o software oferece uma solução abrangente para artesãos que desejam otimizar suas operações e impulsionar o sucesso de seus empreendimentos.
 </p>
 <p style="text-indent: 50px;text-align: justify;">
-O Arte na Mão é a escolha ideal para artesãos e pequenos empresários que desejam alcançar um nível superior de organização e eficiência em seus empreendimentos de artesanato, sem a necessidade de funcionalidades de compra e venda. Confiável e fácil de usar, ele é a chave para o sucesso de negócios de artesanato prósperos e bem gerenciados.</p>
+O Arte na Mão permite aos usuários alcançar um nível superior de organização, possibilitando o acompanhamento detalhado das vendas e do estoque de materiais disponíveis. Os artesãos podem manter um controle organizado dos materiais que entram e saem, eliminando a necessidade de anotações em papel.</p>
+<p style="text-indent: 50px;text-align: justify;">
+Embora nosso software não inclua funcionalidades de compra e venda direta, ele é uma ferramenta confiável e fácil de usar, projetada para auxiliar na gestão de negócios de artesanato prósperos e bem gerenciados. Os interessados em comprar produtos serão redirecionados do próprio site "Arte na Mão" para um canal de comunicação, como o WhatsApp, para interagir diretamente com o artesão.
+</p>
 
 | Para                  | Artesãos                                                                                                         |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Quem                  | Deseja uma plataforma com funcionalidades que auxiliem no gerenciamento de um ateliê de artesanato.       |
-| O ArteNaMão |É uma plataforma com funcionalidades que auxiliam no gerenciamento de um ateliê de artesanato.                                                                             |
-| Que                   | Organiza e facilita o cenário administrativo do negócio.                                  |
+| O ArteNaMão |É uma plataforma web de gestão administrativa de atêlies.                                                                             |
+| Que                   | Organiza o estoque de forma que o administrador possa identificar rapidamente quais produtos estão disponíveis e quais estão em falta além de facilitar a gestão financeira do atêlie com dados e grficos.                                  |
 | Ao contrário de      | Anotações e Instagram                                                                                                                      |
-| Nosso produto         | Apresenta várias funcionalidades personalizadas para os clientes com a finalidade de ajudá-los. |
+| Nosso produto         | Permite ao administrador gerenciar de maneira organizada seus etoques e suas vendas e permite aos usuários ver produtos disponíveis para venda |
 
 ## Objetivos do Produto
 <p style="text-indent: 50px;text-align: justify;">
