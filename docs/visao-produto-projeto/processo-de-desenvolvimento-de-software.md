@@ -4,8 +4,8 @@
 | :--------: | :----: | :---------------------------------: | :---------: |
 | 27/09/2023 |  1.0   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
 
-## Como escolhemos nossa metodologia de desenvolvimento de software  
- Escolhemos a abordagem de Sommerville para decidir qual método de desenvolvimento de software utilizaremos.Nela, a escolha da abordagem de desenvolvimento de software pode ser facilitada através do esforço de responder uma série de perguntas sobre o sistema, o time de desenvolvimento e os stakeholders envolvidos, abarcando assim questões técnicas, humanas e organizacionais.
+## Como escolhemos nossa abordagem de desenvolvimento de software  
+ Escolhemos a abordagem de Sommerville para decidir qual abordagem de desenvolvimento de software utilizaremos.Nela, a escolha da abordagem de desenvolvimento de software pode ser facilitada através da resposta de uma série de perguntas sobre o sistema, o time de desenvolvimento e os stakeholders envolvidos, abarcando assim questões técnicas, humanas e organizacionais.
 
 ### Questões Técnicas
  - **Qual é o tamanho do sistema que está sendo desenvolvido?** É um software de pequeno porte.

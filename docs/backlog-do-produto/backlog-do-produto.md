@@ -1,7 +1,7 @@
 
 ## Persona
 
-- **Administrador:** Unica pessoa com acesso ao sistema de gerenciamneto do ateliê</br>
+- **Administrador:** Unica pessoa com acesso ao sistema de gerenciamento do ateliê</br>
 
 ## Backlog priorizado
 | Temas | Épicos | Capability | Feature | User Story | Valor de Negócio | Viabilidade | Criticidade | Total |
