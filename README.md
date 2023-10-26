@@ -77,7 +77,7 @@ Ferramentas necessárias para o aplicativo:
 <tr>
 <td><a href="https://github.com/AnaKarolinyCavalcanti">Ana Karoliny de Souza Cavalcanti</a></td>
 <td>211031575</td>
-<td>211031575@aluno.unb.br</td>
+<td>karol.cavalcanti37@gmail.com</td>
 </tr>
 <tr>
 <td><a href="https://github.com/brunotarquinio">Bruno Tarquinio Silva</a></td>
@@ -86,7 +86,7 @@ Ferramentas necessárias para o aplicativo:
 </tr>
 <tr>
 <td><a href="https://github.com/YanWerlley">Yan Werlley de Freitas Paulo</a></td>
-<td>211031575</td>
+<td>211030649</td>
 <td>yanwerlley0101@gmail.com</td>
 </tr>
 </tbody>
