@@ -9,6 +9,8 @@ nav:
   - Backlog do Produto: backlog-do-produto/backlog-do-produto.md
   - Entregas:
       - Unidade 1: entregas\unidade-1.md
+      - Unidade 2: entregas\unidade-2.md
+  - Lições Aprendidas: licoes\unidade-2.md
 repo_url: https://github.com/mdsreq-fga-unb/2023.2-ArteNaMao
 repo_name: ArteNaMao
 theme:
