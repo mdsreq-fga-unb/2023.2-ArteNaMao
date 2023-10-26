@@ -36,7 +36,7 @@ Embora nosso software não inclua funcionalidades de compra e venda direta, ele 
 
 ## Objetivos do Produto
 <p style="text-indent: 50px;text-align: justify;">
-No contexto atual, empreendedores e artesãos do setor de artesanato enfrentam desafios significativos na gestão de seus negócios, incluindo estoque, vendas e organização administrativa complexa. O software "ArteNaMão" foi desenvolvido especificamente para atender a essas necessidades. Seus principais objetivos de negócios são facilitar a gestão administrativa e financeira do atêlie, promovendo o sucesso dos negócios de artesanato. Do ponto de vista do cliente, o objetivo é diminuir a complexidade da gestão de negócios e  substituir métodos manuais e complexos por uma solução simples. Em resumo, o "Arte na Mão" visa simplificar e otimizar as operações de artesãos e pequenos empresários, impulsionando o sucesso para os negócios.
+No contexto atual, empreendedores e artesãos do setor de artesanato enfrentam desafios significativos na gestão de seus negócios, incluindo estoque, vendas e organização administrativa complexa. O software "ArteNaMão" foi desenvolvido especificamente para atender a essas necessidades. Seus principais objetivos de negócios são facilitar a gestão administrativa e financeira do atêlie, promovendo o sucesso dos negócios de artesanato. Do ponto de vista do cliente, o objetivo é diminuir a complexidade da gestão de negócios e  substituir métodos manuais e complexos por uma solução simples. Em resumo, o "Arte na Mão" visa  otimizar as operações de artesãos por meio de listas e gráficos que interagem entre si para gerar um maior entendimento da gestão administrativa e financeira do empreendimento .
 </p>
 
 ## Tecnologias Utilizadas
