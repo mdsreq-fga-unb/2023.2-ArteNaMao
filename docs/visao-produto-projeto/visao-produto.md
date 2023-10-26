@@ -4,6 +4,9 @@
 | :--------: | :----: | :---------------------------------: | :---------: |
 | 19/09/2023 |  1.0   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
 | 27/09/2023 |  1.1   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
+| 24/10/2023 |  1.2   | Atualização da declaração do produto | Ana Karoliny e Guilherme Evangelista|
+| 25/10/2023 |  1.3   | Atualização Espinha de Peixe , problema e Objetivo | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
+
 
 ## Problema
 

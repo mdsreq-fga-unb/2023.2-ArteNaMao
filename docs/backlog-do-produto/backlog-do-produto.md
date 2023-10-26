@@ -1,3 +1,7 @@
+|    Data    | Versão |              Descrição              |  Autor(es)  |
+| :--------: | :----: | :---------------------------------: | :---------: |
+| 23/10/2023 |  1.0   | Criação e estruturação do backlog priorizado | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
+| 23/10/2023 |  1.1   | Atualização do backlog priorizado e criaçao das legendas |Guilherme Evangelista |
 
 ## Persona
 
