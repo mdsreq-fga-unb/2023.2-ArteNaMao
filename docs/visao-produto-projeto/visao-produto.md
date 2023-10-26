@@ -12,7 +12,7 @@
 </p>
 
 ## Espinha de peixe
-![1](https://user-images.githubusercontent.com/78980848/271138743-93e0d247-67b3-4555-b882-b4e5212f37f7.jpeg)
+![1](https://user-images.githubusercontent.com/78980848/278196412-644698b4-bd59-4729-8f82-e5d36df2d7af.png)
 
 
 ## Declaração Geral do Produto
