@@ -70,3 +70,31 @@ A implementação pode começar a ser realizada antes da completa especificaçã
 |Representação de Requisitos (RR)| Ocorre ao longo de todo o processo do scrum/xp| é a produção da apresentação dos requsitos em modelos e/ou visualizações do produto, podendo ser informal, semiformal ou formal.|
 |Verificação e Validação de Requisitos (VV)| Ocorre ao longo de todo o processo do scrum/xp| estas atividades dizem respeito à qualidade dos requisitos. A validação é uma forma de constatar a qualidade externa, confirmando (ou não) se a solução correta está sendo construída. Já a verificação é voltada para a qualidade interna, e busca confirmar (ou não) de que o que a solução ou requisito está sendo feita da maneira correta.|
 |Organização e Atualização de Requisitos (OA)| Ocorre ao longo de todo o projeto|este tópico refere-se a manutenção do conjunto de requisitos do produto adequadamente, organizados e atualizados ao longo do tempo. Na organização estabelece-se a maneira como os requisitos do produto serão estruturados (lista, mapa), rastreados, refinados e priorizados com base no framework de requisitos adequado ao produto e/ou projeto, e a atualização é o esforço de manter a organização dos requisitos sempre em seu estado mais atual, diante das possíveis mudanças e consenso entre as fontes de requisitos.|
+
+### Definition of Ready
+
+<p style="text-indent: 50px;text-align: justify;">
+Antes de adicionar os requisitos no backlog da sprint a equipe deverá realizar o seguinte para identificar se a sprint e suas histórias estão aptas para serem iniciadas.
+</p>
+
+- Todas as dependências e recursos necessários para a conclusão do Requisito foram identificados e estão disponíveis?
+- O Requisito está priorizado corretamente em relação aos outros Requisitos do backlog?
+- A equipe de desenvolvimento entendeu completamente o Requisito e seus objetivos?
+- O Requisito tem detalhes suficientes, incluindo critérios de aceitação claros?
+- O Requisito foi validado e aprovado pelo PO?
+- O Requisito é testável?
+- Foi feita a documentação do requisito?
+- O Requisito está devidamente representado por uma História de usuário?
+- A equipe tem conhecimento e preparo necessários para iniciar a sprint?
+
+### Definition of Done
+
+<p style="text-indent: 50px;text-align: justify;">
+Antes do review da sprint o seguinte deverá ser realizado pela equipe para definir que um requisito foi finalizado.
+</p>
+
+- Foi desenvolvido e implementado de acordo com as especificações e critérios de aceitação definidos?
+- Foi integrada ao sistema principal sem causar impacto negativo em outras áreas do sistema?
+- O requisito está em coformidade com os padrões de design e usabilidade ?
+- Todas as dependências da tarefa foram resolvidas?
+- Está documentado?
