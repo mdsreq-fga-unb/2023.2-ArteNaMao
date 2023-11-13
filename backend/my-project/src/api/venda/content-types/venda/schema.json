@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vendas",
+  "info": {
+    "singularName": "venda",
+    "pluralName": "vendas",
+    "displayName": "Vendas"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NomeVenda": {
+      "type": "string"
+    },
+    "NomeCliente": {
+      "type": "string",
+      "required": true
+    },
+    "Produto": {
+      "type": "string",
+      "required": true
+    },
+    "Prazo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

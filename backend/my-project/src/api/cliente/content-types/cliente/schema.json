@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes",
+  "info": {
+    "singularName": "cliente",
+    "pluralName": "clientes",
+    "displayName": "Clientes"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nome": {
+      "type": "string",
+      "required": true
+    },
+    "Sobrenome": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    },
+    "CEP": {
+      "type": "string",
+      "required": true
+    },
+    "Endereco": {
+      "type": "string",
+      "required": true
+    },
+    "Compras": {
+      "type": "integer"
+    },
+    "Telefone": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

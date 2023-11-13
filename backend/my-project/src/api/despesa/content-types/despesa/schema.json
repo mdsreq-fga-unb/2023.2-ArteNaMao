@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "despesas",
+  "info": {
+    "singularName": "despesa",
+    "pluralName": "despesas",
+    "displayName": "Despesas"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NomeDespesa": {
+      "type": "string",
+      "required": true
+    },
+    "Valor": {
+      "type": "string",
+      "required": true
+    },
+    "Descricao": {
+      "type": "text"
+    }
+  }
+}
