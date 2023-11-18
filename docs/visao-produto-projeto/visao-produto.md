@@ -6,6 +6,8 @@
 | 27/09/2023 |  1.1   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
 | 24/10/2023 |  1.2   | Atualização da declaração do produto | Ana Karoliny e Guilherme Evangelista|
 | 25/10/2023 |  1.3   | Atualização Espinha de Peixe , problema e Objetivo | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
+| 18/11/2023 |  1.4   | Atualização dos Objetivos do Produto | Bruno Tarquinio e Marina Márcia |
+
 
 
 ## Problema
@@ -39,7 +41,13 @@ Embora nosso software não inclua funcionalidades de compra e venda direta, ele 
 
 ## Objetivos do Produto
 <p style="text-indent: 50px;text-align: justify;">
-No contexto atual, empreendedores e artesãos do setor de artesanato enfrentam desafios significativos na gestão de seus negócios, incluindo estoque, vendas e organização administrativa complexa. O software "ArteNaMão" foi desenvolvido especificamente para atender a essas necessidades. Seus principais objetivos de negócios são facilitar a gestão administrativa e financeira do atêlie, promovendo o sucesso dos negócios de artesanato. Do ponto de vista do cliente, o objetivo é diminuir a complexidade da gestão de negócios e  substituir métodos manuais e complexos por uma solução simples. Em resumo, o "Arte na Mão" visa  otimizar as operações de artesãos por meio de listas e gráficos que interagem entre si para gerar um maior entendimento da gestão administrativa e financeira do empreendimento .
+No contexto atual, empreendedores e artesãos do setor de artesanato enfrentam desafios significativos na gestão de seus negócios, incluindo estoque, vendas e organização administrativa complexa. O software "ArteNaMão" foi desenvolvido especificamente para atender a essas necessidades. Seus principais objetivos de negócios são facilitar a gestão administrativa e financeira do ateliê, promovendo o sucesso dos negócios de artesanato. Do ponto de vista do cliente, o objetivo é diminuir a complexidade da gestão de negócios e substituir métodos manuais e complexos por uma solução simples.
+
+Em resumo, o "Arte na Mão" visa otimizar as operações de artesãos por meio de listas e gráficos que interagem entre si para gerar um maior entendimento da gestão administrativa e financeira do empreendimento. Para verificar se esses objetivos foram cumpridos, consideramos duas métricas essenciais:
+
+Tempo de Gestão: Comparar o tempo gasto na gestão administrativa antes e depois da implementação do "ArteNaMão". Uma redução significativa indicaria simplificação.
+
+Feedback do Usuário: Realizar pesquisas periódicas para medir a satisfação e perceber se o usuário considera a solução mais simples e fácil de usar. Estas avaliações ofereceriam uma perspectiva direta sobre a eficácia e a aceitação do software. 
 </p>
 
 ## Tecnologias Utilizadas

@@ -5,9 +5,21 @@
 | 19/09/2023 |  1.0   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
 | 27/09/2023 |  1.1   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
 | 24/10/2023 |  1.2   | Atualização da organização do projeto e fases do projeto |  Guilherme Evangelista |
+| 18/11/2023 |  1.3   | Atualização da organização do projeto e adição da tabela de Scrum/Xp|  Bruno Tarquinio e Marina Márcia |
 
 
 ## Organização do Projeto
+
+|    Papel    | Atribuições |              Responsável              | 
+| :--------: | :----: | :---------------------------------: | :---------: |
+| Elicitação e Descoberta | Identificar as necessidades dos stakeholders, incluindo seus objetivos, interesses, restrições e expectativas. Compreender o contexto do produto, incluindo seu propósito, ambiente de uso e requisitos técnicos. Coletar informações sobre os requisitos, usando uma variedade de técnicas, incluindo entrevistas, workshops e pesquisas.  | Ana Karoliny |
+| Análise e Consenso| Organizar e estruturar os requisitos de forma consistente e lógica. Identificar e resolver conflitos entre os requisitos. Obter o consenso dos stakeholders sobre os requisitos.| Arthur Augusto| 
+| Declaração | Documentar os requisitos de forma clara, concisa e compreensível. Comunicar os requisitos aos stakeholders de forma eficaz. | Bruno Tarquinio | 
+| Representação | Representar os requisitos de forma visual e intuitiva, usando modelos, diagramas e outros formatos. Utilizar técnicas de visualização para melhorar a comunicação dos requisitos.| Guilherme Evangelista | 
+|Verificação e Validação | Verificar se os requisitos foram especificados corretamente, ou seja, se são completos, consistentes, claros e verificáveis. Validar se os requisitos atendem às necessidades dos stakeholders, ou seja, se são adequados, essenciais e factíveis.| Marina Márcia | 
+| Organização e Atualização | Manter os requisitos organizados e atualizados ao longo do ciclo de vida do produto. Gerenciar as mudanças nos requisitos de forma eficaz.  | Yan Werlley | 
+
+## Organização do Scrum/XP
 
 |    Papel    | Atribuições |              Responsável              |  Participantes  |
 | :--------: | :----: | :---------------------------------: | :---------: |
