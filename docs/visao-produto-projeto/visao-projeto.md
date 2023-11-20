@@ -11,7 +11,7 @@
 ## Organização do Projeto
 
 |    Papel    | Atribuições |              Responsável              | 
-| :--------: | :----: | :---------------------------------: | :---------: |
+| :--------: | :----: | :---------------------------------: | 
 | Elicitação e Descoberta | Identificar as necessidades dos stakeholders, incluindo seus objetivos, interesses, restrições e expectativas. Compreender o contexto do produto, incluindo seu propósito, ambiente de uso e requisitos técnicos. Coletar informações sobre os requisitos, usando uma variedade de técnicas, incluindo entrevistas, workshops e pesquisas.  | Ana Karoliny |
 | Análise e Consenso| Organizar e estruturar os requisitos de forma consistente e lógica. Identificar e resolver conflitos entre os requisitos. Obter o consenso dos stakeholders sobre os requisitos.| Arthur Augusto| 
 | Declaração | Documentar os requisitos de forma clara, concisa e compreensível. Comunicar os requisitos aos stakeholders de forma eficaz. | Bruno Tarquinio | 
