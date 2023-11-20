@@ -1,0 +1,41 @@
+<div class="ggg">
+    <div class="first-container">
+        <h2>Lista de Clientes Ativos</h2>
+        <button type="button" class="button-add" (click)="modalAdicionarCliente()">+ Adicionar Cliente</button>
+    </div>
+   <div class="container">
+    <table class=" table">
+        <thead>
+          <tr>
+            <th></th>
+            <th scope="col">Nome</th>
+            <th scope="col" class="nomobile">Email</th>
+            <th scope="col" class="notablet">CEP</th>
+            <th scope="col" class="notablet">Telefone</th>
+            <th scope="col">Endereço</th>
+            <th scope="col">Ações</th>
+          </tr>
+        </thead>
+        <tbody *ngIf="clientes$ | async as clientes">
+          <tr class="selected"  *ngFor="let cliente of clientes;">
+            <td><button class="button-view" (click)="modalEditarCliente(cliente,false)"><i class="bi bi-eye"></i></button></td>
+            <th scope="row" id="select-all" class="num">
+                {{cliente.Nome+" "+cliente.Sobrenome}}
+            </th>
+            <td >{{cliente.Email}}
+            </td>
+            <td  >{{cliente.CEP}}
+            </td>
+            <td   class="selectedProfile button">
+              {{cliente.Telefone}}
+            </td>
+            <td > {{cliente.Endereco}}</td>
+            <td  class="container-butoes">
+                <button class="button-editar" (click)="modalEditarCliente(cliente,true)"> <i class="bi bi-pencil-fill"></i></button>
+                <button class="button-excluir" (click)="modalExcluirCliente(cliente)"> <i class="bi bi-trash"></i></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   </div>
+</div>

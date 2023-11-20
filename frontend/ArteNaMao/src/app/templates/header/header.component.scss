@@ -1,0 +1,22 @@
+.header{
+    background-color: #bfddf3;
+    width: 100%;
+    padding: 0.1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.header button{
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.logo{
+    height: 3%;
+    width: 3%;
+    margin-left: 5px;
+}

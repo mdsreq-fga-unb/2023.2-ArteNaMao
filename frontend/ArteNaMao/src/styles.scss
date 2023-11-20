@@ -5,3 +5,25 @@
 
 /* Importing Datepicker SCSS file. */
 @import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
+
+html,
+body {
+    font-family: 'Lato', sans-serif;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+button{
+  transition: filter 0.3s ease;
+}
+
+button:hover{
+  filter: brightness(80%);
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

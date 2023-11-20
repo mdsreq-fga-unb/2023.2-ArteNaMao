@@ -751,16 +751,17 @@ export interface ApiProdutoProduto extends Schema.CollectionType {
     singularName: 'produto';
     pluralName: 'produtos';
     displayName: 'Produtos';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
     NomeProduto: Attribute.String & Attribute.Required;
-    Descricao: Attribute.Text & Attribute.Required;
+    Descricao: Attribute.String & Attribute.Required;
     Quantidade: Attribute.Integer;
-    Preco: Attribute.String & Attribute.Required;
-    Material: Attribute.String;
+    DescricaoGrande: Attribute.Text & Attribute.Required;
+    Preco: Attribute.Decimal & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

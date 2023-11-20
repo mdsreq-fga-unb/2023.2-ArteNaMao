@@ -1,0 +1,43 @@
+<form  [formGroup]="produtoForm" class="master">
+    <div class="header">
+        <h2>Dados do Cliente</h2>
+    </div>
+    <div class="container">
+        <div class="double-container">
+            <div class="line-container">
+                <p><strong>Nome do Produto</strong></p>
+                <input type="text" formControlName="nomeProduto">
+            </div>
+            <div class="line2-container">
+                <p><strong>Pequena Descrição</strong></p>
+                <input type="text" class="input-line" formControlName="descricaoProduto">
+            </div>
+        </div>
+        <div class="double-container">
+            <div class="line-container">
+                <p><strong>Quantidade</strong></p>
+                <input type="number" class="input-line" formControlName="quantidadeProduto">
+            </div>
+            <div class="line2-container">
+                <p><strong>Preço</strong></p>
+                <input type="number" class="input-line" formControlName="precoProduto">
+            </div>
+        </div>
+        <div class="double-container">
+            <div class="line-container">
+                <p><strong>Descrição</strong></p>
+                <textarea formControlName="grandeProduto" ></textarea >
+            </div>
+        </div>
+    </div>
+    <div class="container-buttons">
+        <button class="button-sair" (click)="Sair()">
+            Sair
+        </button>
+        <button class="button-subscribe" (click)="Submit(produto)">
+            Salvar
+        </button>
+    </div>
+</form>
+
+

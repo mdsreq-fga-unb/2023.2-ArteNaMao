@@ -1,0 +1,45 @@
+<form  [formGroup]="clienteForm" class="master">
+    <div class="header">
+        <h2>Dados do Cliente</h2>
+    </div>
+    <div class="container">
+        <div class="double-container">
+            <div class="line-container">
+                <p><strong>Nome</strong></p>
+                <input type="text" formControlName="nomeCliente">
+            </div>
+            <div class="line2-container">
+                <p><strong>Sobrenome</strong></p>
+                <input type="text" class="input-line" formControlName="sobreCliente">
+            </div>
+        </div>
+        <div class="double-container">
+            <div class="line-container">
+                <p><strong>CEP</strong></p>
+                <input type="text" class="input-line" formControlName="cepCliente">
+            </div>
+            <div class="line2-container">
+                <p><strong>Telefone</strong></p>
+                <input type="text" class="input-line" formControlName="phoneCliente">
+            </div>
+        </div>
+        <div class="double-container">
+            <div class="line-container">
+                <p><strong>Endereco</strong></p>
+                <textarea formControlName="enderecoCliente" ></textarea >
+            </div>
+            <div class="line2-container">
+                <p><strong>Email</strong></p>
+                <input type="text" class="input-line" formControlName="emailCliente">
+            </div>
+        </div>
+    </div>
+    <div class="container-buttons">
+        <button class="button-sair" (click)="Sair()">
+            Sair
+        </button>
+        <button class="button-subscribe" (click)="Submit()">
+            Salvar
+        </button>
+    </div>
+</form>

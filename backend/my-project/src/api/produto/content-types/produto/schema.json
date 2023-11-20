@@ -4,7 +4,8 @@
   "info": {
     "singularName": "produto",
     "pluralName": "produtos",
-    "displayName": "Produtos"
+    "displayName": "Produtos",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,19 +17,19 @@
       "required": true
     },
     "Descricao": {
-      "type": "text",
+      "type": "string",
       "required": true
     },
     "Quantidade": {
       "type": "integer"
     },
-    "Preco": {
-      "type": "string",
+    "DescricaoGrande": {
+      "type": "text",
       "required": true
     },
-    "Material": {
-      "type": "string",
-      "required": false
+    "Preco": {
+      "type": "decimal",
+      "required": true
     }
   }
 }
