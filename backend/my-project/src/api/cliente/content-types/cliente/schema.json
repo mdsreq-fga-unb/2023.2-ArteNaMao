@@ -4,7 +4,8 @@
   "info": {
     "singularName": "cliente",
     "pluralName": "clientes",
-    "displayName": "Clientes"
+    "displayName": "Clientes",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -30,9 +31,6 @@
     "Endereco": {
       "type": "string",
       "required": true
-    },
-    "Compras": {
-      "type": "integer"
     },
     "Telefone": {
       "type": "string",

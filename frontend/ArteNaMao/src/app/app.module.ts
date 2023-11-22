@@ -18,6 +18,15 @@ import { ListaprodutosComponent } from './modules/produtos/listaprodutos/listapr
 import { RegistrarprodutoComponent } from './modules/produtos/registrarproduto/registrarproduto.component';
 import { EditarprodutoComponent } from './modules/produtos/editarproduto/editarproduto.component';
 import { ExcluirprodutoComponent } from './modules/produtos/excluirproduto/excluirproduto.component';
+import { ListavendasComponent } from './modules/vendas/listavendas/listavendas.component';
+import { RegistrarvendaComponent } from './modules/vendas/registrarvenda/registrarvenda.component';
+import { EditarvendaComponent } from './modules/vendas/editarvenda/editarvenda.component';
+import { ExcluirvendaComponent } from './modules/vendas/excluirvenda/excluirvenda.component';
+import { ListatransacoesComponent } from './modules/financeiro/listatransacoes/listatransacoes.component';
+import { RegistrartransacaoComponent } from './modules/financeiro/registrartransacao/registrartransacao.component';
+import { EditartransacaoComponent } from './modules/financeiro/editartransacao/editartransacao.component';
+import { ExcluirtransacaoComponent } from './modules/financeiro/excluirtransacao/excluirtransacao.component';
+import { LoginComponent } from './modules/login/login/login.component';
 
 
 
@@ -35,7 +44,16 @@ import { ExcluirprodutoComponent } from './modules/produtos/excluirproduto/exclu
     ListaprodutosComponent,
     RegistrarprodutoComponent,
     EditarprodutoComponent,
-    ExcluirprodutoComponent
+    ExcluirprodutoComponent,
+    ListavendasComponent,
+    RegistrarvendaComponent,
+    EditarvendaComponent,
+    ExcluirvendaComponent,
+    ListatransacoesComponent,
+    RegistrartransacaoComponent,
+    EditartransacaoComponent,
+    ExcluirtransacaoComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

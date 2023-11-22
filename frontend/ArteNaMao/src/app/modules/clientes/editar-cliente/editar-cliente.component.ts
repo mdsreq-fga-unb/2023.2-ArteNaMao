@@ -52,7 +52,6 @@ export class EditarClienteComponent {
     cliente.Telefone = this.clienteForm.get("phoneCliente")?.value;
     cliente.CEP = this.clienteForm.get("cepCliente")?.value;
     cliente.Endereco = this.clienteForm.get("enderecoCliente")?.value;
-    cliente.Compras = 0;
     const body = {
       data: cliente,
     };

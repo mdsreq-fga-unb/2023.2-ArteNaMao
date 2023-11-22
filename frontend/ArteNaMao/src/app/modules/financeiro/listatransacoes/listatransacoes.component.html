@@ -1,0 +1,44 @@
+<div class="ggg">
+    <div class="first-container">
+        <h2>Lista de Transações Realizadas</h2>
+        <button type="button" class="button-add" >Relatórios</button>
+        <button type="button" class="button-add" (click)="modalAdicionarTransacao()">+ Adicionar Despesa</button>
+    </div>
+   <div class="container">
+    <table class=" table">
+        <thead>
+          <tr>
+            <th></th>
+            <th scope="col">ID</th>
+            <th scope="col" class="nomobile">Nome</th>
+            <th scope="col" class="notablet">Descrição</th>
+            <th scope="col" class="notablet">Valor</th>
+            <th scope="col" class="notablet">Tipo</th>
+            <th scope="col">Ações</th>
+          </tr>
+        </thead>
+        <tbody *ngIf="transacaos$ | async as transacaos">
+          <tr class="selected"  *ngFor="let transacao of transacaos;">
+            <td><button class="button-view" (click)="modalEditarTransacao(transacao,false)"><i class="bi bi-eye"></i></button></td>
+            <th scope="row" id="select-all" class="num">
+                {{transacao.id}}
+            </th>
+            <td >{{transacao. NomeTransacao}}
+            </td>
+            <td  >{{transacao.Descricao}}
+            </td>
+            <td   class="selectedProfile button">
+              R${{transacao.Valor}}
+            </td>
+            <td   class="selectedProfile button">
+                {{transacao.TipoTransacao}}
+              </td>
+            <td  class="container-butoes">
+                <button class="button-editar" (click)="modalEditarTransacao(transacao,true)"> <i class="bi bi-pencil-fill"></i></button>
+                <button class="button-excluir" (click)="modalExcluirTransacao(transacao)"> <i class="bi bi-trash"></i></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   </div>
+</div>

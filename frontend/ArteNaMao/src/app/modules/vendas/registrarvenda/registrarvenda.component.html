@@ -1,0 +1,115 @@
+<form  [formGroup]="vendaForm" class="master">
+    <div class="header">
+        <h2>Dados do Cliente</h2>
+    </div>
+    <div class="container">
+        <div class="double-container">
+            <div class="line-container">
+                <p><strong>Nome da Venda</strong></p>
+                <div>
+                    <input type="text" formControlName="nomeVenda">
+                    <div
+                *ngIf="
+                  vendaForm.get('nomeVenda')?.errors &&
+                  vendaForm.get('nomeVenda')?.touched
+                "
+                class="validators"
+              >
+                Insira o nome da venda
+              </div>
+                </div>
+            </div>
+            <div class="line2-container">
+                <p><strong>Preço</strong></p>
+                <div>
+                    <input type="text" formControlName="valorVenda">
+                    <div
+                *ngIf="
+                  vendaForm.get('valorVenda')?.errors &&
+                  vendaForm.get('valorVenda')?.touched
+                "
+                class="validators"
+              >
+                Insira o valor da venda
+              </div>
+                </div>
+            </div>
+        </div>
+        <div class="double-container">
+            <div class="line-container">
+                <p><strong>Produto</strong></p>
+                <div>
+                    <div class="g">
+                        <select
+                        id="produto"
+                        formControlName="nomeProduto"
+                        class="form-control form-control-sm input"
+                        *ngIf="produtos$ | async as produtos"
+                        multiple
+                      >
+                            <option
+                            *ngFor="let produto of produtos"
+                            [value]="produto.NomeProduto"
+                            >
+                            {{ produto.NomeProduto }}
+                            </option>
+                        </select>
+                        <div
+                    *ngIf="
+                      vendaForm.get('nomeProduto')?.errors &&
+                      vendaForm.get('nomeProduto')?.touched
+                    "
+                    class="validators"
+                  >
+                    Insira o nome do produto
+                  </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line2-container">
+                <p><strong>Nome Cliente</strong></p>
+                <select
+                id="room"
+                formControlName="nomeCliente"
+                class="form-control form-control-sm input"
+                *ngIf="clientes$ | async as clientes"
+                multiple
+              >
+                    <option
+                    *ngFor="let cliente of clientes"
+                    [value]="cliente.Nome"
+                    >
+                    {{ cliente.Nome }} {{cliente.Sobrenome}}
+                    </option>
+                </select>
+            </div>
+        </div>
+        <div class="double-container">
+            <div class="line3-container">
+                <p><strong>Prazo</strong></p>
+                <div>
+                    <input type="date" formControlName="prazoVenda">
+                    <div
+                *ngIf="
+                  vendaForm.get('prazoVenda')?.errors &&
+                  vendaForm.get('prazoVenda')?.touched
+                "
+                class="validators"
+              >
+                Insira o prazo da venda
+              </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-buttons">
+        <button class="button-sair" (click)="Sair()">
+            Sair
+        </button>
+        <button class="button-subscribe" (click)="Submit()" [disabled]="!vendaForm.valid">
+            Salvar
+        </button>
+    </div>
+</form>
+
+

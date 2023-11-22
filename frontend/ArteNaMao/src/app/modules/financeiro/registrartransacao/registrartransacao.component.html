@@ -1,0 +1,43 @@
+<form  [formGroup]="transacaoForm" class="master">
+    <div class="header">
+        <h2>Dados do Transacao</h2>
+    </div>
+    <div class="container">
+        <div class="double-container">
+            <div class="line-container">
+                <p><strong>Nome</strong></p>
+                <div>
+                    <input type="text" formControlName="nomeTransacao">
+                    <div
+                *ngIf="
+                  transacaoForm.get('nomeTransacao')?.errors &&
+                  transacaoForm.get('nomeTransacao')?.touched
+                "
+                class="validators"
+              >
+                Insira o nome da despesa
+              </div>
+                </div>
+            </div>
+            <div class="line2-container">
+                <p><strong>Descrição</strong></p>
+                <input type="text" class="input-line" formControlName="descricaoTransacao">
+            </div>
+        </div>
+        <div class="double2-container">
+            <div class="line-container">
+                <p><strong>Valor</strong></p>
+                <input type="text" class="input-line" formControlName="valorTransacao">
+            </div>
+        </div>
+    </div>
+    <div class="container-buttons">
+        <button class="button-sair" (click)="Sair()">
+            Sair
+        </button>
+        <button class="button-subscribe" (click)="Submit()">
+            Salvar
+        </button>
+    </div>
+</form>
+

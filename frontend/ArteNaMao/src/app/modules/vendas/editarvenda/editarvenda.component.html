@@ -1,0 +1,70 @@
+<form  [formGroup]="vendaForm" class="master">
+    <div class="header">
+        <h2>Dados do Cliente</h2>
+    </div>
+    <div class="container">
+        <div class="double-container">
+            <div class="line-container">
+                <p><strong>Nome da Venda</strong></p>
+                <input type="text" formControlName="nomeVenda">
+            </div>
+            <div class="line2-container">
+                <p><strong>Preço</strong></p>
+                <input type="number" class="input-line" formControlName="valorVenda">
+            </div>
+        </div>
+        <div class="double-container">
+            <div class="line-container">
+                <p><strong>Produto</strong></p>
+                <select
+                id="produto"
+                formControlName="nomeProduto"
+                class="form-control form-control-sm input"
+                *ngIf="produtos$ | async as produtos"
+                multiple
+              >
+                    <option
+                    *ngFor="let produto of produtos"
+                    [value]="produto.NomeProduto"
+                    >
+                    {{ produto.NomeProduto }}
+                    </option>
+                </select>
+            </div>
+            <div class="line2-container">
+                <p><strong>Nome Cliente</strong></p>
+                <select
+                id="room"
+                formControlName="nomeCliente"
+                class="form-control form-control-sm input"
+                *ngIf="clientes$ | async as clientes"
+                multiple
+              >
+                    <option
+                    *ngFor="let cliente of clientes"
+                    [value]="cliente.Nome"
+                    >
+                    {{ cliente.Nome }}
+                    </option>
+                </select>
+            </div>
+        </div>
+        <div class="double-container">
+            <div class="line3-container">
+                <p><strong>Prazo</strong></p>
+                <input type="date" class="input-line" formControlName="prazoVenda">
+            </div>
+        </div>
+    </div>
+    <div class="container-buttons">
+        <button class="button-sair" (click)="Sair()">
+            Sair
+        </button>
+        <button class="button-subscribe" (click)="Submit(venda,transacao)">
+            Salvar
+        </button>
+    </div>
+</form>
+
+
+

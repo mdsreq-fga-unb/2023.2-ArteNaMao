@@ -683,6 +683,7 @@ export interface ApiClienteCliente extends Schema.CollectionType {
     singularName: 'cliente';
     pluralName: 'clientes';
     displayName: 'Clientes';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -693,7 +694,6 @@ export interface ApiClienteCliente extends Schema.CollectionType {
     Email: Attribute.Email & Attribute.Required;
     CEP: Attribute.String & Attribute.Required;
     Endereco: Attribute.String & Attribute.Required;
-    Compras: Attribute.Integer;
     Telefone: Attribute.String & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
@@ -780,12 +780,48 @@ export interface ApiProdutoProduto extends Schema.CollectionType {
   };
 }
 
+export interface ApiTransacaoTransacao extends Schema.CollectionType {
+  collectionName: 'transacaos';
+  info: {
+    singularName: 'transacao';
+    pluralName: 'transacaos';
+    displayName: 'Transa\u00E7\u00E3o';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    Descricao: Attribute.String & Attribute.Required;
+    Valor: Attribute.Decimal & Attribute.Required;
+    NomeTransacao: Attribute.String & Attribute.Required;
+    TipoTransacao: Attribute.Enumeration<['venda', 'despesa']> &
+      Attribute.Required;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::transacao.transacao',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::transacao.transacao',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiVendaVenda extends Schema.CollectionType {
   collectionName: 'vendas';
   info: {
     singularName: 'venda';
     pluralName: 'vendas';
     displayName: 'Vendas';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -795,6 +831,7 @@ export interface ApiVendaVenda extends Schema.CollectionType {
     NomeCliente: Attribute.String & Attribute.Required;
     Produto: Attribute.String & Attribute.Required;
     Prazo: Attribute.String & Attribute.Required;
+    Valor: Attribute.Decimal & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -832,6 +869,7 @@ declare module '@strapi/types' {
       'api::cliente.cliente': ApiClienteCliente;
       'api::despesa.despesa': ApiDespesaDespesa;
       'api::produto.produto': ApiProdutoProduto;
+      'api::transacao.transacao': ApiTransacaoTransacao;
       'api::venda.venda': ApiVendaVenda;
     }
   }

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transacaos",
+  "info": {
+    "singularName": "transacao",
+    "pluralName": "transacaos",
+    "displayName": "Transação",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Descricao": {
+      "type": "string",
+      "required": true
+    },
+    "Valor": {
+      "required": true,
+      "type": "decimal"
+    },
+    "NomeTransacao": {
+      "type": "string",
+      "required": true
+    },
+    "TipoTransacao": {
+      "type": "enumeration",
+      "enum": [
+        "venda",
+        "despesa"
+      ],
+      "required": true
+    }
+  }
+}

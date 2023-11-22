@@ -4,7 +4,8 @@
   "info": {
     "singularName": "venda",
     "pluralName": "vendas",
-    "displayName": "Vendas"
+    "displayName": "Vendas",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,10 @@
     },
     "Prazo": {
       "type": "string",
+      "required": true
+    },
+    "Valor": {
+      "type": "decimal",
       "required": true
     }
   }

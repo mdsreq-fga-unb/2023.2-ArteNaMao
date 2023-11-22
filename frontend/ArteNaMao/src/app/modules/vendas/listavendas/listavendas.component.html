@@ -1,0 +1,47 @@
+<div class="ggg">
+    <div class="first-container">
+        <h2>Lista de Vendas Realizadas</h2>
+        <button type="button" class="button-add" (click)="modalAdicionarVenda()">+ Registrar Venda</button>
+    </div>
+   <div class="container">
+    <table class=" table">
+        <thead>
+          <tr>
+            <th></th>
+            <th scope="col">ID da Venda</th>
+            <th scope="col">Descrição da Venda</th>
+            <th scope="col" class="nomobile">Cliente</th>
+            <th scope="col" class="notablet">Produto</th>
+            <th scope="col" class="notablet">Prazo</th>
+            <th scope="col" class="notablet">Valor</th>
+            <th scope="col">Ações</th>
+          </tr>
+        </thead>
+        <tbody *ngIf="vendas$ | async as vendas">
+          <tr class="selected"  *ngFor="let venda of vendas;">
+            <td><button class="button-view" (click)="modalEditarVenda(venda,false)"><i class="bi bi-eye"></i></button></td>
+            <th scope="row" id="select-all" class="num">
+                {{venda.id}}
+            </th>
+            <th scope="row" id="select-all" class="num">
+                {{venda.NomeVenda}}
+            </th>
+            <td >{{venda.NomeCliente}}
+            </td>
+            <td  >{{venda.Produto}}
+            </td>
+            <td   class="selectedProfile button">
+                {{venda.Prazo}}
+              </td>
+            <td   class="selectedProfile button">
+              R${{venda.Valor}}
+            </td>
+            <td  class="container-butoes">
+                <button class="button-editar" (click)="modalEditarVenda(venda,true)"> <i class="bi bi-pencil-fill"></i></button>
+                <button class="button-excluir" (click)="modalExcluirVenda(venda)"> <i class="bi bi-trash"></i></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   </div>
+</div>

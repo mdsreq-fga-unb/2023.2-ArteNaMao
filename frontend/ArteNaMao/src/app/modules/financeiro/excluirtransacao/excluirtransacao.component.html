@@ -1,0 +1,14 @@
+<div class="master">
+    <div class="container">
+        <h1>Atenção !!</h1>
+        <h3>Deseja mesmo excluir a transação {{transacao.id}} ?</h3>
+    </div>
+    <div class="container-butoes">
+        <button class="button-sair" (click)="Sair()">
+            Sair
+        </button>
+        <button class="button-confirmar" (click)="excluirTransacao(transacao)">
+            Confirmar
+        </button>
+    </div>
+</div>

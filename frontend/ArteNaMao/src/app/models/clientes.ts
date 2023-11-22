@@ -5,7 +5,6 @@ export class Cliente{
     Email: string;
     CEP: string;
     Endereco: string;
-    Compras: number;
     Telefone : string;
 
 }
