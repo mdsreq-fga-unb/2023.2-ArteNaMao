@@ -24,7 +24,7 @@ class Response {
   styleUrls: ['./listavendas.component.scss']
 })
 export class ListavendasComponent {
-  prefixoUrlVendas = 'http://localhost:1338/api/vendas';
+  prefixoUrlVendas = 'https://20232-artenamao-production.up.railway.app/api/vendas';
   public vendas$: Observable<Venda[]> | undefined;
   public error: any | undefined;
   public vendas : Venda[];

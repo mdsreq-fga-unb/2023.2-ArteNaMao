@@ -6,11 +6,33 @@
         <div class="double-container">
             <div class="line-container">
                 <p><strong>Nome da Venda</strong></p>
-                <input type="text" formControlName="nomeVenda">
+                <div>
+                    <input type="text" formControlName="nomeVenda">
+                    <div
+                *ngIf="
+                  vendaForm.get('nomeVenda')?.errors &&
+                  vendaForm.get('nomeVenda')?.touched
+                "
+                class="validators"
+              >
+                Insira o nome da venda
+              </div>
+                </div>
             </div>
             <div class="line2-container">
                 <p><strong>Preço</strong></p>
-                <input type="number" class="input-line" formControlName="valorVenda">
+                <div>
+                    <input type="text" formControlName="valorVenda">
+                    <div
+                *ngIf="
+                  vendaForm.get('valorVenda')?.errors &&
+                  vendaForm.get('valorVenda')?.touched
+                "
+                class="validators"
+              >
+                Insira o valor da venda
+              </div>
+                </div>
             </div>
         </div>
         <div class="double-container">
@@ -52,7 +74,18 @@
         <div class="double-container">
             <div class="line3-container">
                 <p><strong>Prazo</strong></p>
-                <input type="date" class="input-line" formControlName="prazoVenda">
+                <div>
+                    <input type="date" formControlName="prazoVenda">
+                    <div
+                *ngIf="
+                  vendaForm.get('prazoVenda')?.errors &&
+                  vendaForm.get('prazoVenda')?.touched
+                "
+                class="validators"
+              >
+                Insira o prazo da venda
+              </div>
+                </div>
             </div>
         </div>
     </div>
@@ -60,7 +93,7 @@
         <button class="button-sair" (click)="Sair()">
             Sair
         </button>
-        <button class="button-subscribe" (click)="Submit(venda,transacao)">
+        <button class="button-subscribe" (click)="Submit(venda,transacao)" [disabled]="!vendaForm.valid">
             Salvar
         </button>
     </div>

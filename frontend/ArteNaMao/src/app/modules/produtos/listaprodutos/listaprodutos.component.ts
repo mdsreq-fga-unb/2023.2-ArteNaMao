@@ -25,7 +25,7 @@ class Response {
 })
 export class ListaprodutosComponent {
 
-  prefixoUrlProdutos = 'http://localhost:1338/api/produtos';
+  prefixoUrlProdutos = 'https://20232-artenamao-production.up.railway.app/api/produtos';
   public produtos$: Observable<Produto[]> | undefined;
   public error: any | undefined;
   public produtos : Produto[];

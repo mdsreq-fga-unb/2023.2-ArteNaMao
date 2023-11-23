@@ -42,7 +42,7 @@ export class EditarClienteComponent {
 
   Submit($cliente: Cliente): void {
     const cliente: Cliente = new Cliente();
-    const baseUrl = `http://localhost:1338`;
+    const baseUrl = `https://20232-artenamao-production.up.railway.app`;
     const getFieldsFromImageSelected = new FormData();
 
 

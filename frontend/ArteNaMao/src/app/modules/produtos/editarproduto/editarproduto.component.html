@@ -6,27 +6,83 @@
         <div class="double-container">
             <div class="line-container">
                 <p><strong>Nome do Produto</strong></p>
-                <input type="text" formControlName="nomeProduto">
+                <div>
+                    <input type="text" formControlName="nomeProduto">
+                    <div
+                *ngIf="
+                  produtoForm.get('nomeProduto')?.errors &&
+                  produtoForm.get('nomeProduto')?.touched
+                "
+                class="validators"
+              >
+                Insira o nome do produto
+              </div>
+                </div>
             </div>
             <div class="line2-container">
                 <p><strong>Pequena Descrição</strong></p>
-                <input type="text" class="input-line" formControlName="descricaoProduto">
+                <div>
+                    <input type="text" formControlName="descricaoProduto">
+                    <div
+                *ngIf="
+                  produtoForm.get('descricaoProduto')?.errors &&
+                  produtoForm.get('descricaoProduto')?.touched
+                "
+                class="validators"
+              >
+                Insira a descrição do produto
+              </div>
+                </div>
             </div>
         </div>
         <div class="double-container">
             <div class="line-container">
                 <p><strong>Quantidade</strong></p>
-                <input type="number" class="input-line" formControlName="quantidadeProduto">
+                <div>
+                    <input type="number" formControlName="quantidadeProduto">
+                    <div
+                *ngIf="
+                  produtoForm.get('quantidadeProduto')?.errors &&
+                  produtoForm.get('quantidadeProduto')?.touched
+                "
+                class="validators"
+              >
+                Insira a quantidade do produto
+              </div>
+                </div>
             </div>
             <div class="line2-container">
                 <p><strong>Preço</strong></p>
-                <input type="number" class="input-line" formControlName="precoProduto">
+                <div>
+                    <input type="number" formControlName="precoProduto">
+                    <div
+                *ngIf="
+                  produtoForm.get('precoProduto')?.errors &&
+                  produtoForm.get('precoProduto')?.touched
+                "
+                class="validators"
+              >
+                Insira o preço do produto
+              </div>
+                </div>
             </div>
         </div>
         <div class="double-container">
             <div class="line-container">
                 <p><strong>Descrição</strong></p>
-                <textarea formControlName="grandeProduto" ></textarea >
+                <div class="gg">
+                    <textarea formControlName="grandeProduto" ></textarea >
+                    <div
+                *ngIf="
+                  produtoForm.get('grandeProduto')?.errors &&
+                  produtoForm.get('grandeProduto')?.touched
+                "
+                class="validators"
+              >
+                Insira a descrição exata do produto
+              </div>
+                </div>
+               
             </div>
         </div>
     </div>
@@ -34,10 +90,9 @@
         <button class="button-sair" (click)="Sair()">
             Sair
         </button>
-        <button class="button-subscribe" (click)="Submit(produto)">
+        <button class="button-subscribe" (click)="Submit(produto)" [disabled]="!produtoForm.valid">
             Salvar
         </button>
     </div>
 </form>
-
 

@@ -24,7 +24,7 @@ export class RegistrartransacaoComponent {
 
   Submit(): void {
     const transacao: Transacao = new Transacao();
-    const baseUrl = `http://localhost:1338`;
+    const baseUrl = `https://20232-artenamao-production.up.railway.app/`;
     transacao.NomeTransacao =  this.transacaoForm.get("nomeTransacao")?.value;
     transacao.Valor = this.transacaoForm.get("valorTransacao")?.value;
     transacao.Descricao = this.transacaoForm.get("descricaoTransacao")?.value;
@@ -32,7 +32,7 @@ export class RegistrartransacaoComponent {
     const body = {
       data: transacao,
     };
-            this.http.post(`${baseUrl}/api/transacaos/`, body).subscribe(
+            this.http.post(`${baseUrl}api/transacaos/`, body).subscribe(
               () => {
                 this.bsModalRef.hide();
               },

@@ -33,7 +33,7 @@ export class RegistrarprodutoComponent {
 
   Submit(): void {
     const produto: Produto = new Produto();
-    const baseUrl = `http://localhost:1338`;
+    const baseUrl = `https://20232-artenamao-production.up.railway.app`;
     const getFieldsFromImageSelected = new FormData();
 
 

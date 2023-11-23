@@ -33,7 +33,7 @@ class Response {
   styleUrls: ['./listaclientes.component.scss']
 })
 export class ListaclientesComponent  {
-  prefixoUrlCliente = 'http://localhost:1338/api/clientes';
+  prefixoUrlCliente = 'https://20232-artenamao-production.up.railway.app/api/clientes';
   public clientes$: Observable<Cliente[]> | undefined;
   public error: any | undefined;
   public clientes : Cliente[];

@@ -18,7 +18,7 @@ export class ExcluirprodutoComponent {
   ) {}
 
   excluirProduto(produto : Produto){
-    const baseUrl = `http://localhost:1338`;
+    const baseUrl = `https://20232-artenamao-production.up.railway.app`;
     this.http
     .delete(`${baseUrl}/api/produtos/${produto.id}`)
     .pipe(catchError((error) => this.handleError(error)))

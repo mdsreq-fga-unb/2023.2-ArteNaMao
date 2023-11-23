@@ -6,31 +6,97 @@
         <div class="double-container">
             <div class="line-container">
                 <p><strong>Nome</strong></p>
-                <input type="text" formControlName="nomeCliente">
+                <div>
+                    <input type="text" formControlName="nomeCliente">
+                    <div
+                *ngIf="
+                  clienteForm.get('nomeCliente')?.errors &&
+                  clienteForm.get('nomeCliente')?.touched
+                "
+                class="validators"
+              >
+                Insira o nome do cliente
+              </div>
+                </div>
             </div>
             <div class="line2-container">
                 <p><strong>Sobrenome</strong></p>
-                <input type="text" class="input-line" formControlName="sobreCliente">
+                <div>
+                    <input type="text" formControlName="sobreCliente">
+                    <div
+                *ngIf="
+                  clienteForm.get('sobreCliente')?.errors &&
+                  clienteForm.get('sobreCliente')?.touched
+                "
+                class="validators"
+              >
+                Insira o sobrenome do cliente
+              </div>
+                </div>
             </div>
         </div>
         <div class="double-container">
             <div class="line-container">
                 <p><strong>CEP</strong></p>
-                <input type="text" class="input-line" formControlName="cepCliente">
+                <div>
+                    <input type="text" formControlName="cepCliente">
+                    <div
+                *ngIf="
+                  clienteForm.get('cepCliente')?.errors &&
+                  clienteForm.get('cepCliente')?.touched
+                "
+                class="validators"
+              >
+                Insira o CEP
+              </div>
+                </div>
             </div>
             <div class="line2-container">
                 <p><strong>Telefone</strong></p>
-                <input type="text" class="input-line" formControlName="phoneCliente">
+                <div>
+                    <input type="text" formControlName="phoneCliente">
+                    <div
+                *ngIf="
+                  clienteForm.get('phoneCliente')?.errors &&
+                  clienteForm.get('phoneCliente')?.touched
+                "
+                class="validators"
+              >
+                Insira o telefone do cliente
+              </div>
+                </div>
             </div>
         </div>
         <div class="double-container">
             <div class="line-container">
                 <p><strong>Endereco</strong></p>
-                <textarea formControlName="enderecoCliente" ></textarea >
+                <div>
+                    <textarea formControlName="enderecoCliente" ></textarea >
+                    <div
+                *ngIf="
+                  clienteForm.get('enderecoCliente')?.errors &&
+                  clienteForm.get('enderecoCliente')?.touched
+                "
+                class="validators"
+              >
+                Insira o endereço do cliente
+              </div>
+                </div>
             </div>
             <div class="line2-container">
                 <p><strong>Email</strong></p>
-                <input type="text" class="input-line" formControlName="emailCliente">
+                <div>
+                    <input type="text" formControlName="emailCliente">
+                    <div
+                *ngIf="
+                  clienteForm.get('emailCliente')?.errors &&
+                  clienteForm.get('emailCliente')?.touched
+                "
+                class="validators"
+              >
+                Insira o email do cliente
+              </div>
+                </div>
             </div>
         </div>
     </div>
@@ -38,7 +104,7 @@
         <button class="button-sair" (click)="Sair()">
             Sair
         </button>
-        <button class="button-subscribe" (click)="Submit()">
+        <button class="button-subscribe" (click)="Submit()" [disabled]="!clienteForm.valid" >
             Salvar
         </button>
     </div>

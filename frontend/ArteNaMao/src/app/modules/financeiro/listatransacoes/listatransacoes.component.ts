@@ -32,7 +32,7 @@ class Response {
   styleUrls: ['./listatransacoes.component.scss']
 })
 export class ListatransacoesComponent {
-  prefixoUrlTransacao = 'http://localhost:1338/api/transacaos';
+  prefixoUrlTransacao = 'https://20232-artenamao-production.up.railway.app/api/transacaos';
   public transacaos$: Observable<Transacao[]> | undefined;
   public error: any | undefined;
   public transacaos : Transacao[];

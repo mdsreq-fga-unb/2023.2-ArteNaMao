@@ -43,8 +43,8 @@ export class RegistrarvendaComponent {
   public venda : Venda;
   public vendaForm: FormGroup;
   public error: any | undefined;
-  public prefixoUrlProdutos = 'http://localhost:1338/api/produtos';
-  public prefixoUrlCliente = 'http://localhost:1338/api/clientes';
+  public prefixoUrlProdutos = 'https://20232-artenamao-production.up.railway.app/api/produtos';
+  public prefixoUrlCliente = 'https://20232-artenamao-production.up.railway.app/api/clientes';
 
   constructor(
     private modalService: BsModalService,
@@ -70,7 +70,7 @@ export class RegistrarvendaComponent {
   Submit(): void {
     const venda: Venda = new Venda();
     const transacao : Transacao = new Transacao();
-    const baseUrl = `http://localhost:1338`;
+    const baseUrl = `https://20232-artenamao-production.up.railway.app`;
 
 
     venda.NomeCliente = this.vendaForm.get("nomeCliente")?.value[0];

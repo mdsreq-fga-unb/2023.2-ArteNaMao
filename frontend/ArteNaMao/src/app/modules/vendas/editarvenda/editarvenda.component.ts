@@ -43,8 +43,8 @@ export class EditarvendaComponent {
   public venda : Venda;
   public vendaForm: FormGroup;
   public error: any | undefined;
-  public prefixoUrlProdutos = 'http://localhost:1338/api/produtos';
-  public prefixoUrlCliente = 'http://localhost:1338/api/clientes';
+  public prefixoUrlProdutos = 'https://20232-artenamao-production.up.railway.app/api/produtos';
+  public prefixoUrlCliente = 'https://20232-artenamao-production.up.railway.app/api/clientes';
 
   constructor(
     private modalService: BsModalService,
@@ -71,11 +71,10 @@ export class EditarvendaComponent {
   Submit(venda$: Venda , transacao$:Transacao): void {
     const venda: Venda = new Venda();
     const transacao : Transacao = new Transacao();
-    const baseUrl = `http://localhost:1338`;
+    const baseUrl = `https://20232-artenamao-production.up.railway.app`;
 
 
     venda.NomeCliente = this.vendaForm.get("nomeCliente")?.value[0];
-    console.log(venda.NomeCliente)
     venda.NomeVenda = this.vendaForm.get("nomeVenda")?.value;
     venda.Produto = this.vendaForm.get("nomeProduto")?.value[0];
     venda.Valor = this.vendaForm.get("valorVenda")?.value;

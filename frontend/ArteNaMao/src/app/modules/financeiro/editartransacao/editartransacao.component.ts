@@ -24,7 +24,7 @@ export class EditartransacaoComponent {
 
   Submit($transacao : Transacao): void {
     const transacao: Transacao = new Transacao();
-    const baseUrl = `http://localhost:1338`;
+    const baseUrl = `https://20232-artenamao-production.up.railway.app`;
     transacao.NomeTransacao =  this.transacaoForm.get("nomeTransacao")?.value;
     transacao.Valor = this.transacaoForm.get("valorTransacao")?.value;
     transacao.Descricao = this.transacaoForm.get("descricaoTransacao")?.value;
