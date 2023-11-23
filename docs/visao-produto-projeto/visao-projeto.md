@@ -6,6 +6,7 @@
 | 27/09/2023 |  1.1   | Criação e estruturação do documento | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina Márcia e Yan Werlley|
 | 24/10/2023 |  1.2   | Atualização da organização do projeto e fases do projeto |  Guilherme Evangelista |
 | 18/11/2023 |  1.3   | Atualização da organização do projeto e adição da tabela de Scrum/Xp|  Bruno Tarquinio e Marina Márcia |
+| 22/11/2023 |  1.4   | Atualização da tabela Planejamento das fases ou iterações do projeto|  Bruno Tarquinio e Marina Márcia |
 
 
 ## Organização do Projeto
@@ -35,12 +36,12 @@
 |    Sprint    | entregas | Data Início | Data Fim |
 | :--------: | :----: | :---------------------------------: | :---------: |
 |    0    | Definição do Problema;<br>Definição do Produto;<br>Início Git Pages | 05/09/2023 | 18/09/2023 |
-|    0    | Produção da Visão de Produto e Projeto;<br>Conclusão da ideia do produto;<br>Produção do processo de desenvolvimento de software | 19/09/2023 | 01/10/2023 |
-|    0    | Criação inicial do backlog do produto; | 02/10/2023 | 15/10/2023 |
-|    0    | backlog pririzado e propostas de mvp | 16/10/2023 | 29/10/2023 |
-|    1    | US01 , US02 , US03 , US05 </br> US06 , US07 , US08 ,  | 30/10/2023 | 13/11/2023 |
-|    2    | US09 , US10 , US12, </br> US18 , US19 , US20 , US13 , US14 | 14/11/2023 | 28/11/2023 |
-|    3    | US15 , US16 , US17 , US04 ,US11  | 29/11/2023 | 12/12/2023 |
+|    1    | Produção da Visão de Produto e Projeto;<br>Conclusão da ideia do produto;<br>Produção do processo de desenvolvimento de software | 19/09/2023 | 01/10/2023 |
+|    2    | Criação inicial do backlog do produto; | 02/10/2023 | 15/10/2023 |
+|    3    | backlog pririzado e propostas de mvp | 16/10/2023 | 29/10/2023 |
+|    4    | US01 , US02 , US03 , US05 </br> US06 , US07 , US08 ,  | 30/10/2023 | 13/11/2023 |
+|    5    | US09 , US10 , US12, </br> US18 , US19 , US20 , US13 , US14 | 14/11/2023 | 28/11/2023 |
+|    6    | US15 , US16 , US17 , US04 ,US11  | 29/11/2023 | 12/12/2023 |
 
 ## Matriz de Comunicação
 
