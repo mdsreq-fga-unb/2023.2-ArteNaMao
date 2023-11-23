@@ -26,9 +26,9 @@
 | :--------: | :----: | :---------------------------------: | :---------: |
 | Scrum Master | Garantir que o time scrum se oriente pelos valores e práticas do Scrum  | Marina | Marina |
 | Product Owner| Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas| Bruno Tarquinio | Bruno Tarquinio |
-| Desenvolvedor | Codificar o produto, testes unitários e realizar refatoração | Ana Karoliny | Ana Karoliny, Bruno Tarquinio, Guilherme Evangelista, Marina e Yan Werlley |
+| Desenvolvedor | Codificar o produto, testes unitários e realizar refatoração | Ana Karoliny | Ana Karoliny, Arthur Augusto, Bruno Tarquinio, Guilherme Evangelista, Marina e Yan Werlley |
 | Analista de qualidade | Garantir a qualidade do produto, garantir o cumprimento do conceito de pronto, realizar inspeções de código| Guilherme Evangelista | Guilherme Evangelista e Yan Werlley |
-|Analista de requisitos | Conferir se o desenvolvimento está alinhado com as atividades da engenharia de requisitos|Guilherme Evangelista | Guilherme Evangelista|
+|Analista de requisitos | Conferir se o desenvolvimento está alinhado com as atividades da engenharia de requisitos|Guilherme Evangelista | Ana Karoliny, Arthur Augusto, Bruno Tarquinio, Guilherme Evangelista, Marina e Yan Werlley |
 | Cliente | Fornecer as informações necessárias para construção do backlog e validar as entregas  | Ana Tarquinio Ateliê | Ana Tarquinio Ateliê |
 
 ## Planejamanto das fases ou iterações do projeto
