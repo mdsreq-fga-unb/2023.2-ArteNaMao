@@ -138,6 +138,41 @@ Nossos critérios vão de 1 a 5 e seu valor "total" é calculado pela média dos
 | <b>[US01]</b> Administrador cadastrar produtos </br> <b>[US02]</b> Administrador editar produtos</br> <b>[US03]</b> Administrador excluir produtos </br>  <b>[US05]</b> Administrador cadastrar cliente </br> <b>[US06]</b> Administrador editar cliente</br>  <b>[US07] </b>Administrador excluir cliente  </br> <b>[US08] </b>Administrador realizar cadastro de vendas  </br> <b>[US09] </b>Administrador editar vendas  </br> <b>[US10] </b>Administrador excluir venda  </br> <b>[US12] </b>Administrador visualizar histórico de transações  </br>                                                                  | Por meio dos critérios de priorização do backlog foi resolvido que parte do MVP1 será composto pelas funções de cadastro , exclusão e edição de produtos , clientes e vendas.             |
 | <b>[US18]</b> Cadastrar despesas  </br> <b>[US019]</b> Excluir despesas  </br> <b>[US020]</b> Editar despesas  </br>                                                                                                                                                                                                        | Por meio dos critérios de priorização do backlog foi resolvido que a outra parte do MVP1 será o cadastro , edição e e exclusão de despesas.  |                                             |
 
+## DoR MVP 1
+
+
+| DoR | Histórias de Usuário |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  | US01 | US02 | US03 | US05 | US06 | US07 | US08 | US09 | US10 | US12 | US18 | US19 | US20 |
+| Todas as dependências e recursos necessários para a conclusão do Requisito foram identificados e estão disponíveis? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| O Requisito está priorizado corretamente em relação aos outros Requisitos do backlog? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| A equipe de desenvolvimento entendeu completamente o Requisito e seus objetivos? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| O Requisito tem detalhes suficientes, incluindo critérios de aceitação claros? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| O Requisito foi validado e aprovado pelo PO? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| O Requisito é testável? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| Foi feita a documentação do requisito? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| O Requisito está devidamente representado por uma História de Usuário? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| A equipe tem conhecimento e preparo necessários para iniciar a sprint? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+
+| US01 | Administrador cadastrar produtos |  |
+| --- | --- | --- |
+| US02 | Administrador editar produtos |  |
+| US03 | Administrador excluir produtos |  |
+| US05 | Administrador cadastrar cliente |  |
+| US06 | Administrador editar cliente |  |
+| US07 | Administrador excluir cliente |  |
+| US08 | Administrador realizar cadastro de vendas |  |
+| US09 | Administrador editar vendas |  |
+| US10 | Administrador excluir venda |  |
+| US12 | Administrador visualizar histórico de transações |  |
+| US18 | Cadastrar despesas |  |
+| US19 | Excluir despesas |  |
+| US20 | Editar despesas |  |
+|  |  |  |
+
+
 ## Critérios de Aceitação (MVP 1)
 
 <table border="1">
