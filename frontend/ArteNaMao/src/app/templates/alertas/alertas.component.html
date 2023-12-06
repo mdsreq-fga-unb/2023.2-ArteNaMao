@@ -1,0 +1,16 @@
+<div class="master">
+    <div class="container" *ngIf="prodAlerta">
+        <h1>Atenção !!</h1>
+        <h3>A quantidade desse produto está muito baixa</h3>
+    </div>
+    <div class="container" *ngIf="prodAlerta == false">
+        <h1>Atenção !!</h1>
+        <h3>A venda está perto do prazo de entrega ou o prazo foi ultrapassado.</h3>
+    </div>
+    <div class="container-butoes">
+        <button class="button-sair" (click)="Sair()">
+            Sair
+        </button>
+    </div>
+</div>
+

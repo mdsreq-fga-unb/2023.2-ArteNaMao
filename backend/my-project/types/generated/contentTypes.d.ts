@@ -797,6 +797,18 @@ export interface ApiTransacaoTransacao extends Schema.CollectionType {
     NomeTransacao: Attribute.String & Attribute.Required;
     TipoTransacao: Attribute.Enumeration<['venda', 'despesa']> &
       Attribute.Required;
+    Data: Attribute.Enumeration<
+      [
+        'dec-2023',
+        'jan-2024',
+        'fev-2024',
+        'mar-2024',
+        'abr-2024',
+        'mai-2024',
+        'jun-2024'
+      ]
+    > &
+      Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

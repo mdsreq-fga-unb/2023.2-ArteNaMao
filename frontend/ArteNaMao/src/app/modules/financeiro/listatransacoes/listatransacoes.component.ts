@@ -14,6 +14,7 @@ import { Transacao } from 'src/app/models/transacao';
 import { RegistrartransacaoComponent } from '../registrartransacao/registrartransacao.component';
 import { EditartransacaoComponent } from '../editartransacao/editartransacao.component';
 import { ExcluirtransacaoComponent } from '../excluirtransacao/excluirtransacao.component';
+import { CookieService } from 'src/app/services/cookie.service';
 
 
 class Entry<T> {
@@ -42,15 +43,25 @@ export class ListatransacoesComponent {
     private modalService: BsModalService,
     private http: HttpClient,
     private fb: FormBuilder,
+    private cookieService: CookieService,
     private router: Router
   ) {}
+
+  headers() {
+    const jwt = this.cookieService.getCookie('jwt');
+    let headers = new HttpHeaders();
+    headers = headers.append('Authorization', `Bearer ${jwt}`);
+    const opts = { headers: headers, params: { populate: '*' } };
+    return opts;
+  }
 
 
   getTransacaos(args?: string) {
 
     this.transacaos$ = this.http
       .get<Response>(
-       this.prefixoUrlTransacao
+        args ? `${this.prefixoUrlTransacao}${args}` : this.prefixoUrlTransacao,
+        this.headers()
       )
       .pipe(
         catchError((error) => this.handleError(error)),

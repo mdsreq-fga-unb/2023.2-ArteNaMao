@@ -18,7 +18,10 @@
         </thead>
         <tbody *ngIf="produtos$ | async as produtos">
           <tr class="selected"  *ngFor="let produto of produtos;">
-            <td><button class="button-view" (click)="modalEditarProduto(produto,false)"><i class="bi bi-eye"></i></button></td>
+            <td>
+              <button class="button-view" (click)="modalEditarProduto(produto,false)"><i class="bi bi-eye"></i></button>
+              <button *ngIf="produto.Quantidade < 4" class="button-view" (click)="modalAlertaProduto(true)"><i class="bi bi-exclamation-diamond"></i></button>
+            </td>
             <th scope="row" id="select-all" class="num">
                 {{produto.id}}
             </th>

@@ -1,4 +1,4 @@
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
@@ -8,6 +8,7 @@ import { Cliente } from 'src/app/models/clientes';
 import { Produto } from 'src/app/models/produtos';
 import { Transacao } from 'src/app/models/transacao';
 import { Venda } from 'src/app/models/vendas';
+import { CookieService } from 'src/app/services/cookie.service';
 
 class Entry<T> {
   id: number;
@@ -50,9 +51,24 @@ export class EditarvendaComponent {
     private modalService: BsModalService,
     private bsModalRef: BsModalRef,
     private http: HttpClient,
+    private cookieService : CookieService,
     private fb: FormBuilder,
     private router: Router
   ) {}
+
+  getHeaders(): HttpHeaders {
+    const jwt = this.cookieService.getCookie("jwt");
+    const headers = new HttpHeaders().set("Authorization", `Bearer ${jwt}`);
+    return headers;
+  }
+
+  headers() {
+    const jwt = this.cookieService.getCookie('jwt');
+    let headers = new HttpHeaders();
+    headers = headers.append('Authorization', `Bearer ${jwt}`);
+    const opts = { headers: headers, params: { populate: '*' } };
+    return opts;
+  }
 
   ngOnInit(): void {
     this.vendaForm = this.fb.group({
@@ -82,6 +98,8 @@ export class EditarvendaComponent {
     transacao.NomeTransacao =  this.vendaForm.get("nomeVenda")?.value;
     transacao.Valor = this.vendaForm.get("valorVenda")?.value;
     transacao.Descricao =  venda.Produto + "vendido para "+ venda.NomeCliente+" ao preço de "+ venda.Valor;
+    const headers = this.getHeaders(); 
+    const requestOptions = { headers };
     const body = {
       data: venda,
     };
@@ -89,7 +107,7 @@ export class EditarvendaComponent {
     const body2 = {
       data: transacao,
     }
-            this.http.put(`${baseUrl}/api/vendas/${venda$.id}`, body).subscribe(
+            this.http.put(`${baseUrl}/api/vendas/${venda$.id}`, body , requestOptions).subscribe(
               () => {
                 this.bsModalRef.hide();
               },
@@ -98,7 +116,7 @@ export class EditarvendaComponent {
               }
             );
 
-            this.http.put(`${baseUrl}/api/transacaos/${transacao$.id}`, body2).subscribe(
+            this.http.put(`${baseUrl}/api/transacaos/${transacao$.id}`, body2, requestOptions).subscribe(
               () => {
               },
               (error) => {
@@ -111,7 +129,8 @@ export class EditarvendaComponent {
 
     this.produtos$ = this.http
       .get<ResponseProduto>(
-       this.prefixoUrlProdutos
+        args ? `${this.prefixoUrlProdutos}${args}` : this.prefixoUrlProdutos,
+        this.headers()
       )
       .pipe(
         catchError((error) => this.handleError(error)),
@@ -135,7 +154,8 @@ export class EditarvendaComponent {
 
     this.clientes$ = this.http
       .get<ResponseCliente>(
-       this.prefixoUrlCliente
+        args ? `${this.prefixoUrlCliente}${args}` : this.prefixoUrlCliente,
+        this.headers()
       )
       .pipe(
         catchError((error) => this.handleError(error)),

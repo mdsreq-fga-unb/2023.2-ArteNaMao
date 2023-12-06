@@ -19,7 +19,10 @@
         </thead>
         <tbody *ngIf="vendas$ | async as vendas">
           <tr class="selected"  *ngFor="let venda of vendas;">
-            <td><button class="button-view" (click)="modalEditarVenda(venda,false)"><i class="bi bi-eye"></i></button></td>
+            <td>
+              <button class="button-view" (click)="modalViewVenda(venda)"><i class="bi bi-eye"></i></button>
+              <button class="button-view" *ngIf="diferencaData(venda.Prazo) >= -5" (click)="modalAlertaProduto(false)"><i class="bi bi-exclamation-diamond"></i></button>
+            </td>
             <th scope="row" id="select-all" class="num">
                 {{venda.id}}
             </th>

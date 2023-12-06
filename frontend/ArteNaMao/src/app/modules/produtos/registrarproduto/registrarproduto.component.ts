@@ -1,9 +1,10 @@
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { BsModalRef } from 'ngx-bootstrap/modal';
 import { Observable, of } from 'rxjs';
 import { Produto } from 'src/app/models/produtos';
+import { CookieService } from 'src/app/services/cookie.service';
 
 @Component({
   selector: 'app-registrarproduto',
@@ -17,9 +18,16 @@ export class RegistrarprodutoComponent {
 
   constructor(
     private bsModalRef: BsModalRef,
+    private cookieService : CookieService,
     private fb: FormBuilder,
     private http: HttpClient,
   ) {}
+
+ getHeaders(): HttpHeaders {
+    const jwt = this.cookieService.getCookie("jwt");
+    const headers = new HttpHeaders().set("Authorization", `Bearer ${jwt}`);
+    return headers;
+  }
 
   ngOnInit(): void {
     this.produtoForm = this.fb.group({
@@ -42,10 +50,12 @@ export class RegistrarprodutoComponent {
     produto.Quantidade = this.produtoForm.get("quantidadeProduto")?.value;
     produto.Preco = this.produtoForm.get("precoProduto")?.value;
     produto.DescricaoGrande = this.produtoForm.get("grandeProduto")?.value;
+    const headers = this.getHeaders();
+    const requestOptions = { headers };
     const body = {
       data: produto,
     };
-            this.http.post(`${baseUrl}/api/produtos/`, body).subscribe(
+            this.http.post(`${baseUrl}/api/produtos/`, body , requestOptions).subscribe(
               () => {
                 this.bsModalRef.hide();
               },

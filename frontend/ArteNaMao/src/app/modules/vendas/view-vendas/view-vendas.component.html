@@ -1,0 +1,48 @@
+<form class="master">
+    <div class="header">
+        <h2>Dados do Cliente</h2>
+    </div>
+    <div class="container">
+        <div class="double-container">
+            <div class="line-container">
+                <p><strong>Nome da Venda</strong></p>
+                <div>
+                    <input type="text" value="{{venda.NomeVenda}}" disabled>
+                </div>
+            </div>
+            <div class="line2-container">
+                <p><strong>Preço</strong></p>
+                <div>
+                    <input type="text"  value="{{venda.Valor}}" disabled>
+                </div>
+            </div>
+        </div>
+        <div class="double-container">
+            <div class="line-container">
+                <p><strong>Produto</strong></p>
+                <input type="text"  value="{{venda.Produto}}" disabled>
+            </div>
+            <div class="line2-container">
+                <p><strong>Nome Cliente</strong></p>
+                <input type="text"  value="{{venda.NomeCliente}}" disabled>
+            </div>
+        </div>
+        <div class="double-container">
+            <div class="line3-container">
+                <p><strong>Prazo</strong></p>
+                <div>
+                    <input type="date"  value="{{venda.Prazo}}" disabled>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-buttons">
+        <button class="button-sair" (click)="Sair()">
+            Sair
+        </button>
+    </div>
+</form>
+
+
+
+

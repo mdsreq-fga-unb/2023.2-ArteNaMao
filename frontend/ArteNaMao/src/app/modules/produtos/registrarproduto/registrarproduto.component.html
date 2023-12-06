@@ -1,6 +1,6 @@
 <form  [formGroup]="produtoForm" class="master">
     <div class="header">
-        <h2>Dados do Cliente</h2>
+        <h2>Informações do Produto</h2>
     </div>
     <div class="container">
         <div class="double-container">
@@ -39,7 +39,7 @@
             <div class="line-container">
                 <p><strong>Quantidade</strong></p>
                 <div>
-                    <input type="number" formControlName="quantidadeProduto">
+                    <input type="number" formControlName="quantidadeProduto" min="1" max="100" maxlength="5">
                     <div
                 *ngIf="
                   produtoForm.get('quantidadeProduto')?.errors &&
@@ -54,7 +54,7 @@
             <div class="line2-container">
                 <p><strong>Preço</strong></p>
                 <div>
-                    <input type="number" formControlName="precoProduto">
+                    <input type="number" formControlName="precoProduto" min="1" max="10000">
                     <div
                 *ngIf="
                   produtoForm.get('precoProduto')?.errors &&

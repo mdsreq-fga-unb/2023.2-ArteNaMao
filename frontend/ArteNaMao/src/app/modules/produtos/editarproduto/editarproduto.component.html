@@ -39,7 +39,7 @@
             <div class="line-container">
                 <p><strong>Quantidade</strong></p>
                 <div>
-                    <input type="number" formControlName="quantidadeProduto">
+                    <input type="number" formControlName="quantidadeProduto" min="1" max="1000">
                     <div
                 *ngIf="
                   produtoForm.get('quantidadeProduto')?.errors &&
@@ -54,7 +54,7 @@
             <div class="line2-container">
                 <p><strong>Preço</strong></p>
                 <div>
-                    <input type="number" formControlName="precoProduto">
+                    <input type="number" formControlName="precoProduto" min="1" max="10000">
                     <div
                 *ngIf="
                   produtoForm.get('precoProduto')?.errors &&
@@ -71,7 +71,7 @@
             <div class="line-container">
                 <p><strong>Descrição</strong></p>
                 <div class="gg">
-                    <textarea formControlName="grandeProduto" ></textarea >
+                    <textarea formControlName="grandeProduto" maxlength="200"></textarea>
                     <div
                 *ngIf="
                   produtoForm.get('grandeProduto')?.errors &&

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { CookieService } from 'src/app/services/cookie.service';
 
 @Component({
   selector: 'app-header',
@@ -7,4 +9,13 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  constructor(
+    private cookieService: CookieService,
+    private router: Router
+  ) {}
+
+  logout(): void {
+    this.cookieService.deleteCookie("jwt");
+    this.router.navigate(["/"]);
+  }
 }

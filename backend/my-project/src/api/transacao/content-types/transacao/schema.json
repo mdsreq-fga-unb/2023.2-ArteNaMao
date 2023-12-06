@@ -31,6 +31,19 @@
         "despesa"
       ],
       "required": true
+    },
+    "Data": {
+      "type": "enumeration",
+      "enum": [
+        "dec-2023",
+        "jan-2024",
+        "fev-2024",
+        "mar-2024",
+        "abr-2024",
+        "mai-2024",
+        "jun-2024"
+      ],
+      "required": true
     }
   }
 }

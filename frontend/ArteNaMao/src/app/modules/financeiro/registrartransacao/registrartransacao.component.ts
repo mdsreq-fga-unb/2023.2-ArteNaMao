@@ -1,9 +1,10 @@
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { BsModalRef } from 'ngx-bootstrap/modal';
 import { Observable, of } from 'rxjs';
 import { Transacao } from 'src/app/models/transacao';
+import { CookieService } from 'src/app/services/cookie.service';
 
 @Component({
   selector: 'app-registrartransacao',
@@ -19,8 +20,15 @@ export class RegistrartransacaoComponent {
   constructor(
     private bsModalRef: BsModalRef,
     private fb: FormBuilder,
+    private cookieService : CookieService,
     private http: HttpClient,
   ) {}
+
+  getHeaders(): HttpHeaders {
+    const jwt = this.cookieService.getCookie("jwt");
+    const headers = new HttpHeaders().set("Authorization", `Bearer ${jwt}`);
+    return headers;
+  }
 
   Submit(): void {
     const transacao: Transacao = new Transacao();
@@ -29,10 +37,12 @@ export class RegistrartransacaoComponent {
     transacao.Valor = this.transacaoForm.get("valorTransacao")?.value;
     transacao.Descricao = this.transacaoForm.get("descricaoTransacao")?.value;
     transacao.TipoTransacao = "despesa";
+    const headers = this.getHeaders();
+    const requestOptions = { headers };
     const body = {
       data: transacao,
     };
-            this.http.post(`${baseUrl}api/transacaos/`, body).subscribe(
+            this.http.post(`${baseUrl}api/transacaos/`, body,requestOptions).subscribe(
               () => {
                 this.bsModalRef.hide();
               },

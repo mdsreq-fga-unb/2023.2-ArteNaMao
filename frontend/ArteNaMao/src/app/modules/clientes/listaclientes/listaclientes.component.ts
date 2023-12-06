@@ -13,6 +13,7 @@ import { Observable, catchError, map, of, shareReplay, tap } from 'rxjs';
 import { RegistrarclienteComponent } from '../registrarcliente/registrarcliente.component';
 import { ExcluirclienteComponent } from '../excluircliente/excluircliente.component';
 import { EditarClienteComponent } from '../editar-cliente/editar-cliente.component';
+import { CookieService } from 'src/app/services/cookie.service';
 
 
 
@@ -43,15 +44,25 @@ export class ListaclientesComponent  {
     private modalService: BsModalService,
     private http: HttpClient,
     private fb: FormBuilder,
+    private cookieService: CookieService,
     private router: Router
   ) {}
+
+  headers() {
+    const jwt = this.cookieService.getCookie('jwt');
+    let headers = new HttpHeaders();
+    headers = headers.append('Authorization', `Bearer ${jwt}`);
+    const opts = { headers: headers, params: { populate: '*' } };
+    return opts;
+  }
 
 
   getClientes(args?: string) {
 
     this.clientes$ = this.http
       .get<Response>(
-       this.prefixoUrlCliente
+        args ? `${this.prefixoUrlCliente}${args}` : this.prefixoUrlCliente,
+        this.headers()
       )
       .pipe(
         catchError((error) => this.handleError(error)),

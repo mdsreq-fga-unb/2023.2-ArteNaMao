@@ -27,6 +27,9 @@ import { RegistrartransacaoComponent } from './modules/financeiro/registrartrans
 import { EditartransacaoComponent } from './modules/financeiro/editartransacao/editartransacao.component';
 import { ExcluirtransacaoComponent } from './modules/financeiro/excluirtransacao/excluirtransacao.component';
 import { LoginComponent } from './modules/login/login/login.component';
+import { CookieService } from './services/cookie.service';
+import { AlertasComponent } from './templates/alertas/alertas.component';
+import { ViewVendasComponent } from './modules/vendas/view-vendas/view-vendas.component';
 
 
 
@@ -53,7 +56,9 @@ import { LoginComponent } from './modules/login/login/login.component';
     RegistrartransacaoComponent,
     EditartransacaoComponent,
     ExcluirtransacaoComponent,
-    LoginComponent
+    LoginComponent,
+    AlertasComponent,
+    ViewVendasComponent
   ],
   imports: [
     BrowserModule,
@@ -63,7 +68,8 @@ import { LoginComponent } from './modules/login/login/login.component';
     HttpClientModule,
   ],
   providers: [
-    BsModalService
+    BsModalService,
+    CookieService
   ],
   bootstrap: [AppComponent]
 })

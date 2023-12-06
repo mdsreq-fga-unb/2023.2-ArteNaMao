@@ -1,14 +1,14 @@
 <div class="outer-container">
     <div class="inner-container">
       <h2>Login</h2>
-      <form>
+      <form [formGroup]="loginForm" action="">
         <label for="username">Usuário:</label>
-        <input type="text" id="username" name="username" required>
+        <input type="email" placeholder="usuário"  formControlName="username">
 
         <label for="password">Senha:</label>
-        <input type="password" id="password" name="password" required>
+        <input type="password" placeholder="senha"formControlName="password" >
 
-        <button routerLink="main/produtos" type="submit">Entrar</button>
+        <button  type="submit" (click)="login()">Entrar</button>
       </form>
     </div>
   </div>

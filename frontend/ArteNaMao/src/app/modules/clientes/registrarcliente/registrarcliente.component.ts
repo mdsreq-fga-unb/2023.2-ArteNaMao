@@ -1,9 +1,10 @@
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { BsModalRef } from 'ngx-bootstrap/modal';
 import { Observable, of } from 'rxjs';
 import { Cliente } from 'src/app/models/clientes';
+import { CookieService } from 'src/app/services/cookie.service';
 
 @Component({
   selector: 'app-registrarcliente',
@@ -18,8 +19,15 @@ export class RegistrarclienteComponent {
   constructor(
     private bsModalRef: BsModalRef,
     private fb: FormBuilder,
+    private cookieService : CookieService,
     private http: HttpClient,
   ) {}
+
+  getHeaders(): HttpHeaders {
+    const jwt = this.cookieService.getCookie("jwt");
+    const headers = new HttpHeaders().set("Authorization", `Bearer ${jwt}`);
+    return headers;
+  }
 
   ngOnInit(): void {
     this.clienteForm = this.fb.group({
@@ -51,10 +59,12 @@ export class RegistrarclienteComponent {
     cliente.Telefone = this.clienteForm.get("phoneCliente")?.value;
     cliente.CEP = this.clienteForm.get("cepCliente")?.value;
     cliente.Endereco = this.clienteForm.get("enderecoCliente")?.value;
+    const headers = this.getHeaders();
+    const requestOptions = { headers };
     const body = {
       data: cliente,
     };
-            this.http.post(`${baseUrl}/api/clientes/`, body).subscribe(
+            this.http.post(`${baseUrl}/api/clientes/`, body, requestOptions).subscribe(
               () => {
                 this.bsModalRef.hide();
               },
