@@ -4,7 +4,7 @@
 
 ## User Story Map
 
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVNOFsXMY=/?moveToViewport=-636,-840,3837,1248&embedId=196389547752" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+![Alt text](image-1.png)
 
 ## Entrega video unidade 3
 
