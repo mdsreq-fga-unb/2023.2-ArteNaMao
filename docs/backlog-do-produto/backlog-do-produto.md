@@ -318,6 +318,30 @@ Nossos critérios vão de 1 a 5 e seu valor "total" é calculado pela média dos
 | <b>[US15]</b> Administrador deve ser capaz de visualizar sua receita </br> <b>[US16]</b> Administrador deve ser capaz de visualizar suas despesas </br> <b>[US17]</b> Administrador deve ser capaz de visualizar seu lucro </br>                                                   |  Administrador deve visualizar sua despesas , lucro e receita mensal.                                                                 |
 | <b>[US04]</b> Administrador deve ser avisado sobre a falta de estoque de um produto </br> <b>[US11]</b> Administrador deve ser avisado sobre uma venda prestes a expirar                                         | O administrador deve ser alertado em situações críticas. |
 
+## DoR MVP 2
+
+| DoR | Histórias de Usuário |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+|  | US13 | US14 | US15 | US16 | US17 | US04 | US11 |
+| Todas as dependências e recursos necessários para a conclusão do Requisito foram identificados e estão disponíveis? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| O Requisito está priorizado corretamente em relação aos outros Requisitos do backlog? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| A equipe de desenvolvimento entendeu completamente o Requisito e seus objetivos? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| O Requisito tem detalhes suficientes, incluindo critérios de aceitação claros? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| O Requisito foi validado e aprovado pelo PO? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| O Requisito é testável? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| Foi feita a documentação do requisito? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| O Requisito está devidamente representado por uma História de Usuário? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| A equipe tem conhecimento e preparo necessários para iniciar a sprint? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+
+| US13 | O Administrador deve ser capaz de fazer login |
+|---|---|
+| US14 | Administrador deve ser capaz de fazer logout |
+| US15 | Administrador deve ser capaz de visualizar sua receita |
+| US16 | Administrador deve ser capaz de visualizar suas despesas |
+| US17 | Administrador deve ser capaz de visualizar seu lucro |
+| US04 | Administrador deve ser avisado sobre a falta de estoque de um produto |
+| US11 | Administrador deve ser avisado sobre uma venda prestes a expirar |
+
 ## Critérios de Aceitação (MVP 2)
 
 <table border="1">
