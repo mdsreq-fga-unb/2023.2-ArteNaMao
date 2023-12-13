@@ -1,0 +1,35 @@
+<form class="master">
+    <form action="" [formGroup]="transacaoForm">
+        <div class="header" *ngIf="transacaos$ | async as transacaos">
+            <h2>Relatório Mensal</h2>
+            <div id="containerData">
+                <button style="background: none; border: none;" (click)="gerarRelatorio(transacaos)">
+                    <i class="bi bi-repeat"></i>
+                </button>
+                <select name="data" id="data" formControlName="dataTransacao">
+                    <option value="dec-2023">dezembro 2023</option>
+                    <option value="jan-2024" selected>janeiro 2024</option>
+                    <option value="fev-2024">fevereiro 2024</option>
+                    <option value="mar-2024">março 2024</option>
+                    <option value="abr-2024">abril 2024</option>
+                    <option value="mai-2024">maio 2024</option>
+                    <option value="jun-2024">junho 2024</option>
+                </select>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Nesse mês você teve uma receita de R${{receita}}.</h2>
+            <h2>Você gastou R${{gastos}} em despesas com seus produtos.</h2>
+            <h2>Você teve um lucro de R${{lucro}} esse mês.</h2>
+            <h2>Vendas realizadas: {{vendas}} </h2>
+            <h2>Despesas feitas: {{despesas}}</h2>
+        </div>
+        <div class="container-buttons">
+            <button class="button-sair" (click)="Sair()">
+                Sair
+            </button>
+        </div>
+    </form> 
+</form>
+
+

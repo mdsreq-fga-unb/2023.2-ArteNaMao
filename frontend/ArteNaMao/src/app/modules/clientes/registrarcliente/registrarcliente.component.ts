@@ -79,6 +79,13 @@ export class RegistrarclienteComponent {
     return of();
   }
 
+  limitarCaracteres(limite:number,id : string) {
+    var inputCampo = document.getElementById(id) as HTMLInputElement;
+    if (inputCampo?.value.length > limite) {
+        inputCampo.value = inputCampo.value.slice(0, limite);
+    }
+  }
+
   Sair() {
     this.bsModalRef.hide();
   }

@@ -99,6 +99,16 @@ export class RegistrarvendaComponent {
     transacao.Valor = this.vendaForm.get("valorVenda")?.value;
     transacao.Descricao =  venda.Produto + " vendido para "+ venda.NomeCliente;
     transacao.TipoTransacao = "venda";
+    const data = new Date();
+    const dataString = data.toDateString();
+    const partesData = dataString.split(' ');
+    const dataJunta = partesData[1]+"-"+partesData[3];
+    if(dataJunta == "Dec-2023"){
+      transacao.Data = "dec-2023"
+    }
+    if(dataJunta == "Jan-2024"){
+      transacao.Data = "jan-2024"
+    }
     const headers = this.getHeaders(); 
     const requestOptions = { headers };
     const body = {
@@ -125,6 +135,13 @@ export class RegistrarvendaComponent {
               }
             );
   }
+
+   limitarCaracteres(limite:number,id : string) {
+    var inputCampo = document.getElementById(id) as HTMLInputElement;
+    if (inputCampo?.value.length > limite) {
+        inputCampo.value = inputCampo.value.slice(0, limite);
+    }
+}
 
   getprodutos(args?: string) {
 

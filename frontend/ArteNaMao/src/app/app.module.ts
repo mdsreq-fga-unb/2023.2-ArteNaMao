@@ -30,6 +30,7 @@ import { LoginComponent } from './modules/login/login/login.component';
 import { CookieService } from './services/cookie.service';
 import { AlertasComponent } from './templates/alertas/alertas.component';
 import { ViewVendasComponent } from './modules/vendas/view-vendas/view-vendas.component';
+import { RelatorioComponent } from './modules/financeiro/relatorio/relatorio.component';
 
 
 
@@ -58,7 +59,8 @@ import { ViewVendasComponent } from './modules/vendas/view-vendas/view-vendas.co
     ExcluirtransacaoComponent,
     LoginComponent,
     AlertasComponent,
-    ViewVendasComponent
+    ViewVendasComponent,
+    RelatorioComponent
   ],
   imports: [
     BrowserModule,

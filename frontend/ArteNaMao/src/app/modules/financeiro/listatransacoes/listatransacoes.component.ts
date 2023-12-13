@@ -15,6 +15,7 @@ import { RegistrartransacaoComponent } from '../registrartransacao/registrartran
 import { EditartransacaoComponent } from '../editartransacao/editartransacao.component';
 import { ExcluirtransacaoComponent } from '../excluirtransacao/excluirtransacao.component';
 import { CookieService } from 'src/app/services/cookie.service';
+import { RelatorioComponent } from '../relatorio/relatorio.component';
 
 
 class Entry<T> {
@@ -95,6 +96,23 @@ export class ListatransacoesComponent {
         this.getTransacaos();
     });
   }
+
+  modalVerRelatorio() {
+    const modalConfig = {
+      backdrop: true,
+      ignoreBackdropClick: false,
+      class: 'modal-lg',
+      initialState: {
+      },
+    };
+    this.bsModalRef = this.modalService.show(
+      RelatorioComponent,
+      modalConfig
+    );
+    this.bsModalRef.onHide?.subscribe(() => {
+    });
+  }
+
 
   modalEditarTransacao(transacao: Transacao, edicao: boolean) {
     const modalConfig = {

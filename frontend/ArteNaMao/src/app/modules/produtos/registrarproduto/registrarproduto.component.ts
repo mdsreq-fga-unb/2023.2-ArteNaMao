@@ -65,6 +65,13 @@ export class RegistrarprodutoComponent {
             );
   }
 
+  limitarCaracteres(limite:number,id : string) {
+    var inputCampo = document.getElementById(id) as HTMLInputElement;
+    if (inputCampo?.value.length > limite) {
+        inputCampo.value = inputCampo.value.slice(0, limite);
+    }
+}
+
   private handleError(error: HttpErrorResponse): Observable<never> {
     this.error = error.message;
     return of();

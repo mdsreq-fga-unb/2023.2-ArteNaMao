@@ -7,7 +7,7 @@
             <div class="line-container">
                 <p><strong>Nome</strong></p>
                 <div>
-                    <input type="text" formControlName="nomeCliente">
+                    <input type="text" formControlName="nomeCliente" id="nomeCliente" (input)="limitarCaracteres(15,'nomeCliente')">
                     <div
                 *ngIf="
                   clienteForm.get('nomeCliente')?.errors &&
@@ -22,7 +22,7 @@
             <div class="line2-container">
                 <p><strong>Sobrenome</strong></p>
                 <div>
-                    <input type="text" formControlName="sobreCliente">
+                    <input type="text" formControlName="sobreCliente" id="sobreCliente" (input)="limitarCaracteres(20,'sobreCliente')">
                     <div
                 *ngIf="
                   clienteForm.get('sobreCliente')?.errors &&
@@ -39,7 +39,7 @@
             <div class="line-container">
                 <p><strong>CEP</strong></p>
                 <div>
-                    <input type="text" formControlName="cepCliente">
+                    <input type="text" formControlName="cepCliente" id="cepCliente" (input)="limitarCaracteres(7,'cepCliente')">
                     <div
                 *ngIf="
                   clienteForm.get('cepCliente')?.errors &&
@@ -54,7 +54,7 @@
             <div class="line2-container">
                 <p><strong>Telefone</strong></p>
                 <div>
-                    <input type="text" formControlName="phoneCliente">
+                    <input type="text" formControlName="phoneCliente" id="phoneCliente" (input)="limitarCaracteres(11,'phoneCliente')">
                     <div
                 *ngIf="
                   clienteForm.get('phoneCliente')?.errors &&
@@ -71,7 +71,7 @@
             <div class="line-container">
                 <p><strong>Endereco</strong></p>
                 <div>
-                    <textarea formControlName="enderecoCliente" ></textarea >
+                    <textarea formControlName="enderecoCliente" id="enderecoCliente" (input)="limitarCaracteres(200,'enderecoCliente')"></textarea >
                     <div
                 *ngIf="
                   clienteForm.get('enderecoCliente')?.errors &&
@@ -86,7 +86,7 @@
             <div class="line2-container">
                 <p><strong>Email</strong></p>
                 <div>
-                    <input type="text" formControlName="emailCliente">
+                    <input type="text" formControlName="emailCliente" id="emailCliente" (input)="limitarCaracteres(20,'emailCliente')">
                     <div
                 *ngIf="
                   clienteForm.get('emailCliente')?.errors &&

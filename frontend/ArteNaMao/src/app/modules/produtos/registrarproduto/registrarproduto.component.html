@@ -7,7 +7,7 @@
             <div class="line-container">
                 <p><strong>Nome do Produto</strong></p>
                 <div>
-                    <input type="text" formControlName="nomeProduto">
+                    <input type="text" formControlName="nomeProduto" id="nomeProduto" (input)="limitarCaracteres(20,'nomeProduto')">
                     <div
                 *ngIf="
                   produtoForm.get('nomeProduto')?.errors &&
@@ -22,7 +22,7 @@
             <div class="line2-container">
                 <p><strong>Pequena Descrição</strong></p>
                 <div>
-                    <input type="text" formControlName="descricaoProduto">
+                    <input type="text" formControlName="descricaoProduto" id="descricaoProduto" (input)="limitarCaracteres(20,'descricaoProduto')">
                     <div
                 *ngIf="
                   produtoForm.get('descricaoProduto')?.errors &&
@@ -39,7 +39,7 @@
             <div class="line-container">
                 <p><strong>Quantidade</strong></p>
                 <div>
-                    <input type="number" formControlName="quantidadeProduto" min="1" max="100" maxlength="5">
+                    <input type="number" formControlName="quantidadeProduto" id="quantidadeProduto" (input)="limitarCaracteres(3,'quantidadeProduto')">
                     <div
                 *ngIf="
                   produtoForm.get('quantidadeProduto')?.errors &&
@@ -54,7 +54,7 @@
             <div class="line2-container">
                 <p><strong>Preço</strong></p>
                 <div>
-                    <input type="number" formControlName="precoProduto" min="1" max="10000">
+                    <input type="number" formControlName="precoProduto" id="precoProduto" (input)="limitarCaracteres(8,'precoProduto')">
                     <div
                 *ngIf="
                   produtoForm.get('precoProduto')?.errors &&
@@ -71,7 +71,7 @@
             <div class="line-container">
                 <p><strong>Descrição</strong></p>
                 <div class="gg">
-                    <textarea formControlName="grandeProduto" ></textarea >
+                    <textarea formControlName="grandeProduto" id="grandeProduto" (input)="limitarCaracteres(200,'grandeProduto')"></textarea >
                     <div
                 *ngIf="
                   produtoForm.get('grandeProduto')?.errors &&

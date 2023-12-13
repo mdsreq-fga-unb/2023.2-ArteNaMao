@@ -4,5 +4,6 @@ export class Transacao{
     Descricao: string;
     Valor : number;
     TipoTransacao : string;
+    Data : string;
 
 }

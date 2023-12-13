@@ -7,7 +7,7 @@
             <div class="line-container">
                 <p><strong>Nome da Venda</strong></p>
                 <div>
-                    <input type="text" formControlName="nomeVenda">
+                    <input type="text" formControlName="nomeVenda" id="nomeVenda" (input)="limitarCaracteres(20,'nomeVenda')">
                     <div
                 *ngIf="
                   vendaForm.get('nomeVenda')?.errors &&
@@ -22,7 +22,7 @@
             <div class="line2-container">
                 <p><strong>Preço</strong></p>
                 <div>
-                    <input type="text" formControlName="valorVenda">
+                    <input type="text" formControlName="valorVenda" id="valorVenda" (input)="limitarCaracteres(6,'valorVenda')">
                     <div
                 *ngIf="
                   vendaForm.get('valorVenda')?.errors &&

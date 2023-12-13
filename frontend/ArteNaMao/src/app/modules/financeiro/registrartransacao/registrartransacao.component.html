@@ -7,7 +7,7 @@
             <div class="line-container">
                 <p><strong>Nome</strong></p>
                 <div>
-                    <input type="text" formControlName="nomeTransacao">
+                    <input type="text" formControlName="nomeTransacao" id="nomeTransacao" (input)="limitarCaracteres(20,'nomeTransacao')">
                     <div
                 *ngIf="
                   transacaoForm.get('nomeTransacao')?.errors &&
@@ -22,7 +22,7 @@
             <div class="line2-container">
                 <p><strong>Descrição</strong></p>
                 <div>
-                    <input type="text" formControlName="descricaoTransacao">
+                    <input type="text" formControlName="descricaoTransacao" id="descricaoTransacao" (input)="limitarCaracteres(20,'descricaoTransacao')">
                     <div
                 *ngIf="
                   transacaoForm.get('descricaoTransacao')?.errors &&
@@ -39,7 +39,7 @@
             <div class="line-container">
                 <p><strong>Valor</strong></p>
                 <div>
-                    <input type="number" formControlName="valorTransacao">
+                    <input type="number" formControlName="valorTransacao" id="valorTransacao" (input)="limitarCaracteres(8,'valorTransacao')">
                     <div
                 *ngIf="
                   transacaoForm.get('valorTransacao')?.errors &&

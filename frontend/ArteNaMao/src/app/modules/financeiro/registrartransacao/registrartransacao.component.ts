@@ -37,6 +37,17 @@ export class RegistrartransacaoComponent {
     transacao.Valor = this.transacaoForm.get("valorTransacao")?.value;
     transacao.Descricao = this.transacaoForm.get("descricaoTransacao")?.value;
     transacao.TipoTransacao = "despesa";
+    const data = new Date();
+    const dataString = data.toDateString();
+    const partesData = dataString.split(' ');
+    const dataJunta = partesData[1]+"-"+partesData[3];
+    if(dataJunta == "Dec-2023"){
+      transacao.Data = "dec-2023"
+    }
+    if(dataJunta == "Jan-2024"){
+      transacao.Data = "jan-2024"
+    }
+    console.log(dataJunta);
     const headers = this.getHeaders();
     const requestOptions = { headers };
     const body = {
@@ -54,6 +65,7 @@ export class RegistrartransacaoComponent {
 
   }
 
+
   private handleError(error: HttpErrorResponse): Observable<never> {
     this.error = error.message;
     return of();
@@ -69,6 +81,13 @@ export class RegistrartransacaoComponent {
 
   Sair() {
     this.bsModalRef.hide();
+  }
+
+  limitarCaracteres(limite:number,id : string) {
+    var inputCampo = document.getElementById(id) as HTMLInputElement;
+    if (inputCampo?.value.length > limite) {
+        inputCampo.value = inputCampo.value.slice(0, limite);
+    }
   }
 
 }

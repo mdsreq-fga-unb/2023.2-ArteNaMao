@@ -115,14 +115,6 @@ export class EditarvendaComponent {
                 this.handleError(error);
               }
             );
-
-            this.http.put(`${baseUrl}/api/transacaos/${transacao$.id}`, body2, requestOptions).subscribe(
-              () => {
-              },
-              (error) => {
-                this.handleError(error);
-              }
-            );
   }
 
   getprodutos(args?: string) {
