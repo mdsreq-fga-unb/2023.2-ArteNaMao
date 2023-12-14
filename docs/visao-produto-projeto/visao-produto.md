@@ -64,11 +64,6 @@ Feedback do Usuário: Realizar pesquisas periódicas para medir a satisfação e
 **Node** - É usado para desenvolver o backend da nossa aplicação. Ele fornece um ambiente de tempo de execução para JavaScript do lado do servidor, permitindo a construção de aplicativos escaláveis e de alto desempenho.
 Strapi - É uma estrutura de código aberto para a criação de APIs RESTful. É usada no desenvolvimento do backend para facilitar a criação e gestão de conteúdo e dados da aplicação.
 
-**PostgreSQL** - Este sistema de gerenciamento de banco de dados relacional é escolhido para armazenar e gerenciar os dados da aplicação. Oferece confiabilidade, desempenho e recursos avançados de consulta.
-Git Actions - É uma ferramenta que automatiza tarefas de teste e integração contínua, garantindo que nosso código seja testado e implantado de forma confiável.
-
-**Jest** - É uma estrutura de teste de código aberto que é usada para testar nosso código. Ele facilita a criação e execução de testes de unidade e testes de integração para garantir que nossa aplicação funcione corretamente.
-
 
 ## Ferramentas a serem utilizadas.
 
