@@ -347,6 +347,18 @@ Nossos critérios vão de 1 a 5 e seu valor "total" é calculado pela média dos
 | O Requisito está devidamente representado por uma História de Usuário? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
 | A equipe tem conhecimento e preparo necessários para iniciar a sprint? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
 
+## DoD MVP 2
+
+
+| DoD | Histórias de Usuário |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  | US13 | US14 | US15 | US16 | US17 | US04 | US11 |
+| Foi desenvolvido e implementado de acordo com as especificações e critérios de aceitação definidos? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| Foi integrada ao sistema principal sem causar impacto negativo em outras áreas do sistema? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| O requisito está em coformidade com os padrões de design e usabilidade ? | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled /> | <input type="checkbox" disabled /> |
+| Todas as dependências da tarefa foram resolvidas? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
+| Está documentado? | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled /> | <input type="checkbox" disabled /> | 
+
 | US13 | O Administrador deve ser capaz de fazer login |
 |---|---|
 | US14 | Administrador deve ser capaz de fazer logout |
