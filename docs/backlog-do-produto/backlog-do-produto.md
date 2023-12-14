@@ -163,9 +163,9 @@ Nossos critérios vão de 1 a 5 e seu valor "total" é calculado pela média dos
 |  | US01 | US02 | US03 | US05 | US06 | US07 | US08 | US09 | US10 | US12 | US18 | US19 | US20 |
 | Foi desenvolvido e implementado de acordo com as especificações e critérios de aceitação definidos? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
 | Foi integrada ao sistema principal sem causar impacto negativo em outras áreas do sistema? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
-| O requisito está em coformidade com os padrões de design e usabilidade ? | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled /> | <input type="checkbox" disabled /> | <input type="checkbox" disabled /> | <input type="checkbox" disabled /> | <input type="checkbox" disabled /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> |
+| O requisito está em coformidade com os padrões de design e usabilidade ? | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked   /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked  /> |
 | Todas as dependências da tarefa foram resolvidas? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
-| Está documentado? | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled /> | <input type="checkbox" disabled /> | <input type="checkbox" disabled /> | <input type="checkbox" disabled /> | <input type="checkbox" disabled /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> |
+| Está documentado? | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked /> |
 
 
 
@@ -355,9 +355,9 @@ Nossos critérios vão de 1 a 5 e seu valor "total" é calculado pela média dos
 |  | US13 | US14 | US15 | US16 | US17 | US04 | US11 |
 | Foi desenvolvido e implementado de acordo com as especificações e critérios de aceitação definidos? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
 | Foi integrada ao sistema principal sem causar impacto negativo em outras áreas do sistema? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
-| O requisito está em coformidade com os padrões de design e usabilidade ? | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled /> | <input type="checkbox" disabled /> |
+| O requisito está em coformidade com os padrões de design e usabilidade ? | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
 | Todas as dependências da tarefa foram resolvidas? | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> |
-| Está documentado? | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled  /> | <input type="checkbox" disabled /> | <input type="checkbox" disabled /> | 
+| Está documentado? | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked  /> | <input type="checkbox" disabled checked /> | <input type="checkbox" disabled checked /> | 
 
 | US13 | O Administrador deve ser capaz de fazer login |
 |---|---|
@@ -426,19 +426,19 @@ Nossos critérios vão de 1 a 5 e seu valor "total" é calculado pela média dos
     <td>1. O administrador deve ser alertado quando a quantidade em estoque de um material cair abaixo de um determinado limite.</td>
   </tr>
   <tr>
-    <td>2. O alerta deve ser enviado por e-mail.</td>
+
   </tr>
   <tr>
-    <td>3. O alerta deve conter as seguintes informações: nome do material, quantidade em falta e quantidade mínima.</td>
+   
   </tr><tr>
     <td rowspan="3" style="vertical-align: middle; text-align: center;">[11] Eu, como administrador, quero ser notificado quando o prazo de entrega de uma venda está para expirar para que eu possa tomar as medidas necessárias para garantir que a entrega seja realizada dentro do prazo.</td>
     <td>1. O administrador deve ser alertado quando o prazo de entrega de uma venda estiver para expirar.</td>
   </tr>
   <tr>
-    <td>2. O alerta deve ser enviado ao administrador por meio de um e-mail.</td>
+
   </tr>
   <tr>
-    <td>3. O alerta deve conter as seguintes informações: número do pedido, data de entrega, produtos encomendados.</td>
+  
   </tr>
   
 </table>
