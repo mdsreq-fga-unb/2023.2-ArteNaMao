@@ -19,7 +19,7 @@ theme:
   language: pt
   favicon: assets/pincel.png
   logo: assets/pincel.png
-  usm: docs/assets/User-Story-Map-Framework-_1_.png
+  usm: (image-1.png)
   features:
     - navigation.tabs
     - navigation.tabs.sticky

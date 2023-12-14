@@ -31,3 +31,13 @@ Além disso, ficou evidente o comprometimento da equipe com o projeto. Melhoramo
 <p style="text-align: justify;">
 Na etapa de planejamento do projeto, enfrentamos desafios de tempo, já que vários membros tinham outras responsabilidades acadêmicas. Apesar disso, nos dedicamos para resolver as pendências e conseguimos concluir o que era necessário para a entrega do projeto.
 </p>
+
+## Unidade 4
+
+<p style="text-align: justify;">
+Nesta unidade, nos dedicamos à especificação de casos de uso. Identificamos atores, descrevemos suas interações com o sistema e detalhamos passo a passo como o sistema deve responder às ações dos usuários. 
+</p>
+
+<p style="text-align: justify;">
+Cada caso de uso foi minuciosamente delineado, incluindo fluxos principais, alternativos e excepcionais. Isso resultou em uma documentação detalhada e clara, fornecendo uma base sólida para o desenvolvimento do sistema, garantindo que as necessidades do usuário fossem atendidas.
+</p>
